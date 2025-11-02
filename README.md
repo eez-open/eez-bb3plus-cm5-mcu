@@ -5,6 +5,23 @@
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. 
 
+### Overview
+
+![3D model](Images/CM5-STM32H7.jpg)
+
+The MCU module uses a high performance STM32 MCU and is pin compatible with Raspberry Pi CM5. The MCU cannot generate an HDMI compatible signal, so a TI TFP410 is used to convert 24-bit RGB to HDMI compatible signal. Since the BB3+ offers dual display: a built-in 5" TFT touchscreen and an external monitor, a 1:2 high speed mux (TS3DV642) is used for destination selection.
+
+### Feature list
+
+* Raspberry Pi CM5 form factor
+* [STM32H7R7L8H6H](https://www.st.com/en/microcontrollers-microprocessors/stm32h7r7l8.html) 32-bit High-Performance Arm Cortex-M7 MCU, 600 MHz, NeoChrom GPU
+* 32 MB PSRAM
+* 32 MB Flash memory
+* 4 GB eMMC 
+* Two USB ports (FS and HS)
+* 10/100 Mbps Ethernet
+* 24-bit color video output with 1:2 MUX (HDMI compatible)
+
 ### Related topics and links
 
 * Intergalaktik [BB3-CM4](https://intergalaktik.eu/projects/bb3-cm4)
@@ -19,6 +36,6 @@ The contributors are listed in CONTRIB.TXT.
 
 ---
 
-This work is financed by [NLnet](https://nlnet.nl/) foundation
+This work is financed by [NLnet](https://nlnet.nl/project/BB3-CM5/) foundation
 
 ![nlnet](Images/nlnet-logo.png)
