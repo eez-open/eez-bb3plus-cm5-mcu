@@ -4666,7 +4666,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 170.18 111.76)
+			(xy 165.1 111.76) (xy 167.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8631,22 +8631,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "108a3281-eefd-43b3-8385-ab7ad69759e8")
 		(property "Reference" "IC9"
-			(at 135.89 33.02 0)
+			(at 124.46 37.465 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "TS3DV642A0RUAR"
-			(at 135.89 35.56 0)
+			(at 124.46 120.015 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:RUA42_7P55X2P05"
@@ -8919,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 261.62 38.1 0)
 			(effects
 				(font
@@ -10664,7 +10667,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 172.72 111.76 270)
+		(at 170.18 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10672,7 +10675,7 @@
 		(dnp no)
 		(uuid "6f7d1c1c-bd78-4126-b28e-ae816c75cf1c")
 		(property "Reference" "#+3V019"
-			(at 172.72 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,7 +10684,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 173.355 112.395 90)
+			(at 170.815 112.395 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +10795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 93.98 101.6 0)
 			(effects
 				(font
@@ -10906,7 +10909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 248.92 38.1 0)
 			(effects
 				(font
@@ -12026,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 274.32 38.1 0)
 			(effects
 				(font

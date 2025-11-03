@@ -1251,7 +1251,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13711,7 +13711,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22430,7 +22430,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33006,7 +33006,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34106,7 +34106,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37164,7 +37164,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38559,7 +38559,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39117,7 +39117,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45429,7 +45429,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45707,7 +45707,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48785,7 +48785,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")

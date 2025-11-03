@@ -8980,7 +8980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 256.54 147.32 0)
 			(effects
 				(font
@@ -9739,7 +9739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -10761,12 +10761,12 @@
 		(dnp no)
 		(uuid "77c38914-11ee-4e47-bacd-a57266563dc1")
 		(property "Reference" "R8"
-			(at 66.04 26.035 90)
+			(at 67.31 29.845 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10K"
@@ -10838,6 +10838,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Type" ""
@@ -13259,7 +13260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -13717,7 +13718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "187-CL10A475KP8NNND"
 			(at 167.64 78.74 0)
 			(effects
 				(font
@@ -14340,12 +14341,12 @@
 		(dnp no)
 		(uuid "fd2cbdc2-aa5f-42f8-8ffe-ae94af6961a2")
 		(property "Reference" "R9"
-			(at 71.12 26.035 90)
+			(at 72.39 29.845 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10K"
@@ -14568,12 +14569,12 @@
 		(dnp no)
 		(uuid "fe4577f8-e47a-474d-880d-577b4476c471")
 		(property "Reference" "R10"
-			(at 76.2 26.035 90)
+			(at 77.47 29.845 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10K"
