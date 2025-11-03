@@ -68,11 +68,15 @@
           ""
         ],
         [
-          "clearance|120840000|97965000|cfce540c-b544-4e3d-8d6c-1e5d96086e30|e1b93d53-2cd6-4405-842e-a15f6d69849b",
+          "clearance|120861422|98007928|ddf35469-7de5-4d3b-86a4-01cdbc6c6d14|844943d1-a350-4694-bc70-00575b8996c5",
           ""
         ],
         [
-          "clearance|120861422|98007928|ddf35469-7de5-4d3b-86a4-01cdbc6c6d14|844943d1-a350-4694-bc70-00575b8996c5",
+          "clearance|142660000|78564800|d0d17cce-050e-4644-b87e-ca1f113d3029|ffbc023d-ac1f-455a-a603-0a14ecf62611",
+          ""
+        ],
+        [
+          "clearance|142660000|79225200|3439aae1-1cd8-4a31-8f31-a34b03f66a79|ffbc023d-ac1f-455a-a603-0a14ecf62611",
           ""
         ],
         [
@@ -88,11 +92,23 @@
           ""
         ],
         [
+          "shorting_items|120840001|97991507|844943d1-a350-4694-bc70-00575b8996c5|cfce540c-b544-4e3d-8d6c-1e5d96086e30",
+          ""
+        ],
+        [
           "solder_mask_bridge|119977863|96945934|97d39fc3-c58c-400d-be22-d05cea89da6c|8718966b-aacf-4d1a-a756-721e679b4abc",
           ""
         ],
         [
           "solder_mask_bridge|120840001|97991507|cfce540c-b544-4e3d-8d6c-1e5d96086e30|844943d1-a350-4694-bc70-00575b8996c5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142660000|78564800|ffbc023d-ac1f-455a-a603-0a14ecf62611|d0d17cce-050e-4644-b87e-ca1f113d3029",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142660000|79225200|ffbc023d-ac1f-455a-a603-0a14ecf62611|3439aae1-1cd8-4a31-8f31-a34b03f66a79",
           ""
         ]
       ],
@@ -870,8 +886,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fabrication/gerbers/",
-      "pos_files": "fabrication/pos/",
+      "plot": "../fabrication/gerbers/",
+      "pos_files": "../fabrication/pos/",
       "specctra_dsn": "",
       "step": "fabrication/step/Envox H745 Master MCU r2B6.step",
       "svg": "",
@@ -881,7 +897,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom/BB3plus CM5 STM32H7 module.csv",
+    "bom_export_filename": "../fabrication/bom/BB3plus CM5 STM32H7 module.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1017,7 +1033,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "schematic-diagram/",
+    "plot_directory": "../schematic-diagram/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

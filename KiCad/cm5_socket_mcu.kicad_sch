@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-11-02")
+		(date "2025-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4681,6 +4681,12 @@
 		(uuid "6ff33ed9-5e63-4632-b2b8-f7787ae8ec20")
 	)
 	(junction
+		(at 30.48 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817237c6-2bcc-44a6-aa44-da9a7b3f2a0d")
+	)
+	(junction
 		(at 208.28 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5267,7 +5273,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 175.26) (xy 27.94 175.26)
+			(xy 35.56 175.26) (xy 30.48 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6808,6 +6814,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 175.26) (xy 22.86 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a6521c-521d-4a1d-af11-12e82fc798e9")
+	)
+	(wire
+		(pts
 			(xy 147.32 71.12) (xy 149.86 71.12)
 		)
 		(stroke
@@ -7187,7 +7203,7 @@
 		(uuid "0799ee1b-b4a6-4bf0-b7a4-6e291cea6bf9")
 	)
 	(label "+5V_IN"
-		(at 27.94 175.26 0)
+		(at 22.86 175.26 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -8781,7 +8797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07f304a7-7b70-44da-a470-345b5eb3f123")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -8831,7 +8847,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8957,6 +8973,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12a30f2b-5498-48d3-8e25-ce186e0e0da7")
+		(property "Reference" "#PWR01"
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971f2067-d7a3-4ae1-b518-ccd0064dae59")
+		)
+		(instances
+			(project "BB3plus CM5 STM32H7 module"
+				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_symbols:+1V8")
 		(at 38.1 134.62 90)
 		(mirror x)
@@ -8966,7 +9047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c8f2534-1160-437c-a5c1-4a09e4c04f2a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 41.91 134.62 0)
 			(effects
 				(font
@@ -9017,7 +9098,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9033,7 +9114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35eda850-ee08-4b74-a8db-da727b00ef0f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 208.28 161.29 0)
 			(effects
 				(font
@@ -9083,7 +9164,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9230,7 +9311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a00b1e0-21d6-4828-a5c5-9285172c85b6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 68.58 189.23 0)
 			(effects
 				(font
@@ -9280,7 +9361,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9985,6 +10066,111 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_passives:C-EU")
+		(at 30.48 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d2807de-34d1-4353-b19f-1ac29d205c4e")
+		(property "Reference" "C1"
+			(at 30.988 177.9524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10u"
+			(at 30.988 181.7624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1276-1052-6-ND"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL21A106KPFNNNE"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "CL21A106KPFNNNE"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17024"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e00cd535-e7d7-4f6e-8870-bbcfbf46ab21")
+		)
+		(pin "2"
+			(uuid "fc8f9206-38d7-44ec-a618-a7dfa6c8202f")
+		)
+		(instances
+			(project "BB3plus CM5 STM32H7 module"
+				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 182.88 0)
 		(unit 1)
@@ -9993,7 +10179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d2bdf75-d30d-495c-a8e7-653fe698b2e3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 60.96 189.23 0)
 			(effects
 				(font
@@ -10043,7 +10229,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10823,7 +11009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d52f8fc7-0e6b-4056-9d2b-ad3752c55663")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 48.26 161.29 0)
 			(effects
 				(font
@@ -10873,7 +11059,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10889,7 +11075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7f8e1cb-eee4-4974-8311-f81652181ccb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 147.32 161.29 0)
 			(effects
 				(font
@@ -10939,7 +11125,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11021,7 +11207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e266d564-13aa-4929-9b43-b1da6d35f1d6")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 69.088 177.9524 0)
 			(effects
 				(font
@@ -11111,7 +11297,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
