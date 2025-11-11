@@ -13432,7 +13432,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM1555C1H100GA01D"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -13441,7 +13441,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "490-7299-1-ND"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -13450,7 +13450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "81-GRM1555C2A100JA1D"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -13604,7 +13604,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GRM1555C1H100GA01D"
 			(at 55.88 86.36 0)
 			(effects
 				(font
@@ -13613,7 +13613,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "490-7299-1-ND"
 			(at 55.88 86.36 0)
 			(effects
 				(font
@@ -13622,7 +13622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "81-GRM1555C2A100JA1D"
 			(at 55.88 86.36 0)
 			(effects
 				(font
