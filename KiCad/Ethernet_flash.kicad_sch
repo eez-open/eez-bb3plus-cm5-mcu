@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-11-03")
+		(date "2025-11-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4291,8 +4291,24 @@
 		(uuid "385f8057-3207-4767-bf5a-0e330310bf70")
 	)
 	(no_connect
+		(at 157.48 91.44)
+		(uuid "4144ce04-ec0c-4fba-95be-bb7b083b6a26")
+	)
+	(no_connect
+		(at 157.48 88.9)
+		(uuid "7a9e5916-0544-4b52-9e2f-ed754989f011")
+	)
+	(no_connect
 		(at 241.3 71.12)
 		(uuid "8b7c069c-e985-43c7-9449-5a06b7500df2")
+	)
+	(no_connect
+		(at 157.48 93.98)
+		(uuid "c0117400-7c62-4faf-bd59-b7675893d9c1")
+	)
+	(no_connect
+		(at 157.48 86.36)
+		(uuid "e6898277-c8c7-437c-86c4-79df72704c19")
 	)
 	(wire
 		(pts
@@ -4303,16 +4319,6 @@
 			(type default)
 		)
 		(uuid "0486289f-664d-445e-aa43-d54cd0ee65c9")
-	)
-	(wire
-		(pts
-			(xy 162.56 86.36) (xy 157.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048e0f4a-1cf4-434d-a8ec-01d09968b56c")
 	)
 	(wire
 		(pts
@@ -4383,16 +4389,6 @@
 			(type default)
 		)
 		(uuid "0d17e971-ec59-4515-84e9-a0dcfee35737")
-	)
-	(wire
-		(pts
-			(xy 157.48 91.44) (xy 162.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d791438-7de0-442f-b690-95002db1d5af")
 	)
 	(wire
 		(pts
@@ -5637,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 162.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9fc6da7-8d91-4ba4-a495-6e31c86799aa")
-	)
-	(wire
-		(pts
 			(xy 63.5 124.46) (xy 68.58 124.46)
 		)
 		(stroke
@@ -6165,16 +6151,6 @@
 			(type default)
 		)
 		(uuid "e91db07c-3ba1-43a7-a79a-d6436d7101a1")
-	)
-	(wire
-		(pts
-			(xy 162.56 88.9) (xy 157.48 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea43fe6b-bc16-4328-a742-c900088af5de")
 	)
 	(wire
 		(pts
@@ -6858,29 +6834,6 @@
 			)
 		)
 	)
-	(global_label "TFT_DVID_HPD"
-		(shape input)
-		(at 162.56 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 153 0 1)
-			)
-			(justify left)
-		)
-		(uuid "39f327f6-771e-4c36-93bf-0abe3653f88b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3354 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape bidirectional)
 		(at 22.86 129.54 180)
@@ -6921,29 +6874,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TFT_DVID_SCL"
-		(shape bidirectional)
-		(at 162.56 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 153 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3f385fc3-596d-4550-a595-c5012d87243f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.7483 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7348,29 +7278,6 @@
 		(uuid "76b4aaf5-6cba-469f-bd20-da42d917e7c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.5631 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TFT_DVID_SDA"
-		(shape bidirectional)
-		(at 162.56 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 153 0 1)
-			)
-			(justify left)
-		)
-		(uuid "79293bfa-7cac-4a83-a21d-3a81691253b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.7906 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,29 +7899,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TFT_DVID_CEC"
-		(shape output)
-		(at 162.56 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 255 153 0 1)
-			)
-			(justify left)
-		)
-		(uuid "e98caeb4-dc40-4d16-b64d-8792d9f36771")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.2084 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
