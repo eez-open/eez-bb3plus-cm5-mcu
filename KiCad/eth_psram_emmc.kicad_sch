@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-17")
+		(date "2026-01-29")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -3913,6 +3913,12 @@
 		(uuid "4c93cb1d-c859-47ac-bad5-bc44969a3109")
 	)
 	(junction
+		(at 63.5 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d305026-4924-41de-9e62-9209948cf6b2")
+	)
+	(junction
 		(at 99.06 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4013,12 +4019,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83037cc2-2fab-48ec-ad12-d9eafedb74e9")
-	)
-	(junction
-		(at 63.5 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89143c86-9193-4a40-9156-1da978ef5c1b")
 	)
 	(junction
 		(at 99.06 160.02)
@@ -5029,6 +5029,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 81.28) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e957819-8e1d-41f1-b243-acd56c16e5e7")
+	)
+	(wire
+		(pts
 			(xy 167.64 66.04) (xy 167.64 73.66)
 		)
 		(stroke
@@ -5197,16 +5207,6 @@
 			(color 132 0 132 1)
 		)
 		(uuid "3a713cf1-44fa-44ad-a381-e9afa0d788df")
-	)
-	(wire
-		(pts
-			(xy 175.26 78.74) (xy 177.8 78.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3ae88e16-4692-4a0e-904c-19f23e35b8fd")
 	)
 	(wire
 		(pts
@@ -5460,16 +5460,6 @@
 			(color 132 0 132 1)
 		)
 		(uuid "480fc1db-883b-4cae-836e-3cfd99324a9e")
-	)
-	(wire
-		(pts
-			(xy 63.5 81.28) (xy 78.74 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481f9db7-d8f5-4ad5-9378-e5c3294d0e6e")
 	)
 	(wire
 		(pts
@@ -9213,7 +9203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f15ad72-e3cd-45c8-bc3b-9772d31c0382")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 136.525 48.26 90)
 			(effects
 				(font
@@ -9311,7 +9301,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9326,7 +9316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "152d97ae-6a47-4a86-9bce-2e8a39324ff2")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY028"
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -9377,7 +9367,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cde94c8-f2e0-423a-ace6-154f76bdea52")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 67.945 28.575 90)
 			(effects
 				(font
@@ -9491,7 +9481,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9848,7 +9838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27ff7ccc-2312-442c-af6e-e9265df24cd1")
-		(property "Reference" "#SUPPLY031"
+		(property "Reference" "#SUPPLY032"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -9899,7 +9889,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY031")
+					(reference "#SUPPLY032")
 					(unit 1)
 				)
 			)
@@ -10608,7 +10598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "491688c4-2c51-4504-8ecf-b6a750944ced")
-		(property "Reference" "#SUPPLY049"
+		(property "Reference" "#SUPPLY021"
 			(at 48.26 50.8 0)
 			(effects
 				(font
@@ -10659,7 +10649,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY049")
+					(reference "#SUPPLY021")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bb00648-2212-47c4-85dd-9b7ec1c87e52")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY030"
 			(at 142.24 50.8 0)
 			(effects
 				(font
@@ -11483,7 +11473,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)
@@ -11499,7 +11489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bb44408-3581-44e6-87c2-0da01139a81b")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY025"
 			(at 109.22 109.22 0)
 			(effects
 				(font
@@ -11550,7 +11540,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -11565,7 +11555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eb10782-5e23-4958-8197-84825dad9172")
-		(property "Reference" "#SUPPLY032"
+		(property "Reference" "#SUPPLY033"
 			(at 233.68 162.56 0)
 			(effects
 				(font
@@ -11616,7 +11606,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY032")
+					(reference "#SUPPLY033")
 					(unit 1)
 				)
 			)
@@ -11632,7 +11622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72bfa4ac-5a0e-4294-b4f4-05df95f6fdf1")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY024"
 			(at 99.06 172.72 0)
 			(effects
 				(font
@@ -11683,7 +11673,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -11698,7 +11688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77c38914-11ee-4e47-bacd-a57266563dc1")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 70.485 28.575 90)
 			(effects
 				(font
@@ -11797,7 +11787,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12060,7 +12050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "855cd1cb-423c-414e-8b33-eb9d2d83ce21")
-		(property "Reference" "#SUPPLY033"
+		(property "Reference" "#SUPPLY034"
 			(at 256.54 152.4 0)
 			(effects
 				(font
@@ -12111,7 +12101,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY033")
+					(reference "#SUPPLY034")
 					(unit 1)
 				)
 			)
@@ -12241,7 +12231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "886a39e2-7115-416e-aee5-61fb57f6fe12")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY023"
 			(at 63.5 175.26 0)
 			(effects
 				(font
@@ -12292,7 +12282,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -12308,7 +12298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "928a022f-f2c7-4485-aa4d-edc0126a518b")
-		(property "Reference" "#SUPPLY021"
+		(property "Reference" "#SUPPLY022"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -12359,7 +12349,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY021")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)
@@ -12375,7 +12365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "929542ce-9c7a-4c86-91be-1aeaec70b510")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 173.99 70.485 0)
 			(effects
 				(font
@@ -12474,7 +12464,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12669,7 +12659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2da3863-207a-4422-8b57-ca8910a4d4bd")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 62.23 22.86 0)
 			(effects
 				(font
@@ -12768,7 +12758,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12890,7 +12880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 78.74 0)
+		(at 175.26 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12898,8 +12888,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3f0e1a2-43f4-4494-b93c-4d98b2e5cdab")
-		(property "Reference" "#SUPPLY030"
-			(at 177.8 78.74 0)
+		(property "Reference" "#SUPPLY031"
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +12898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.705 80.01 0)
+			(at 177.165 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +12907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 78.74 0)
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12926,7 +12916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 78.74 0)
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,7 +12925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 78.74 0)
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,7 +12939,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY031")
 					(unit 1)
 				)
 			)
@@ -12964,7 +12954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a794e8de-d024-4b94-be69-012f08bf14fc")
-		(property "Reference" "#SUPPLY028"
+		(property "Reference" "#SUPPLY029"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -13015,7 +13005,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY028")
+					(reference "#SUPPLY029")
 					(unit 1)
 				)
 			)
@@ -13164,7 +13154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b35101dd-8394-4186-b43e-ed863d604045")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY026"
 			(at 109.22 132.08 0)
 			(effects
 				(font
@@ -13215,7 +13205,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
@@ -13345,7 +13335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdb600fe-8f97-43db-9d57-7978c17ba473")
-		(property "Reference" "#SUPPLY026"
+		(property "Reference" "#SUPPLY027"
 			(at 109.22 157.48 0)
 			(effects
 				(font
@@ -13396,7 +13386,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY026")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -13641,7 +13631,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c0315af7-7ada-47b2-a8ad-e4d429285b34")
-		(property "Reference" "R12"
+		(property "Reference" "R5"
 			(at 53.34 49.53 90)
 			(effects
 				(font
@@ -13740,7 +13730,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R12")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15638,7 +15628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd2cbdc2-aa5f-42f8-8ffe-ae94af6961a2")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 73.025 28.575 90)
 			(effects
 				(font
@@ -15737,7 +15727,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15866,7 +15856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe4577f8-e47a-474d-880d-577b4476c471")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 75.565 28.575 90)
 			(effects
 				(font
@@ -15965,7 +15955,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)

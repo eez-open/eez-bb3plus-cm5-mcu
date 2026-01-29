@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-17")
+		(date "2026-01-29")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7414,10 +7414,6 @@
 		(uuid "556449c0-4b08-4910-a814-940c9b7a564e")
 	)
 	(no_connect
-		(at 71.12 43.18)
-		(uuid "5d5e587f-ea34-4355-848a-13d33294cbae")
-	)
-	(no_connect
 		(at 71.12 134.62)
 		(uuid "720ad50b-d1f0-489a-93e7-b43b1df93cb5")
 	)
@@ -7444,6 +7440,10 @@
 	(no_connect
 		(at 71.12 93.98)
 		(uuid "d1864048-4be9-4ba4-a174-a7834d083ca7")
+	)
+	(no_connect
+		(at 71.12 43.18)
+		(uuid "e6459809-e821-4385-ab99-f589dd950e47")
 	)
 	(no_connect
 		(at 71.12 58.42)
@@ -13228,7 +13228,7 @@
 			)
 		)
 	)
-	(global_label "DVID_SEL1"
+	(global_label "VMUX_EN"
 		(shape output)
 		(at 35.56 71.12 180)
 		(fields_autoplaced yes)
@@ -13240,7 +13240,7 @@
 		)
 		(uuid "742ad543-78af-4e01-bd53-8e57b7221263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.0704 71.12 0)
+			(at 27.9595 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13340,7 +13340,7 @@
 			)
 		)
 	)
-	(global_label "DVID_SEL2"
+	(global_label "VMUX_SEL"
 		(shape output)
 		(at 76.2 147.32 0)
 		(fields_autoplaced yes)
@@ -13352,7 +13352,7 @@
 		)
 		(uuid "7ea2bbf3-c987-40ac-a31d-869f15acee26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.6896 147.32 0)
+			(at 84.4356 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

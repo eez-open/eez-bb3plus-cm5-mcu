@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-01-17T16:46:44+0100 ###
+### Footprint positions - created on 2026-01-20T19:58:56+0100 ###
 ### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -63,13 +63,9 @@ C81       4u7                   C_0603_1608Metric       22.6552    27.5600  -90.
 FB1       FBMJ1608HM180NTR      BEAD0603                27.6000    10.2100  -90.0000  bottom
 FB5       60R@100MHz            BEAD0603                39.0700    20.4200  180.0000  bottom
 L1        LQM2MPN2R2NG0         0806                    23.2886    10.2370    0.0000  bottom
-R12       10K                   R_0402_1005Metric       10.7100     9.3500  180.0000  bottom
+R5        10K                   R_0402_1005Metric       10.7100     9.3500  180.0000  bottom
 R13       10K                   R_0402_1005Metric       40.8500    13.2000  180.0000  bottom
 R14       220R                  R_0402_1005Metric       15.0400     2.4100    0.0000  bottom
-R15       49R9                  R_0402_1005Metric        7.2800     7.6700    0.0000  bottom
-R16       49R9                  R_0402_1005Metric        7.2800     8.6100    0.0000  bottom
-R17       49R9                  R_0402_1005Metric        7.2800     5.7900    0.0000  bottom
-R18       49R9                  R_0402_1005Metric        7.2800     6.7300  180.0000  bottom
 R19       220R                  R_0402_1005Metric       15.0400     1.1600    0.0000  bottom
 Y1        VXM7-9032-25M0000000  XTAL_403C11A24M00000    32.1500    12.0500    0.0000  bottom
 Y2        VXM7-9032-25M0000000  XTAL_403C11A24M00000    11.6757     2.5200  -90.0000  bottom
