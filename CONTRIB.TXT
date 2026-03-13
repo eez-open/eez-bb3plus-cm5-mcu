@@ -7,5 +7,6 @@
 Name	-	email
 ------------
 Envox d.o.o.	-	eez@envox.hr
+Intergalaktik d.o.o.    -   warp@intergalaktik.eu
 
 -----END OF THE MAILING LIST-----
