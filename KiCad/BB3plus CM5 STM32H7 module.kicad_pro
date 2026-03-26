@@ -84,11 +84,11 @@
           ""
         ],
         [
-          "shorting_items|142660000|78564800|d0d17cce-050e-4644-b87e-ca1f113d3029|ffbc023d-ac1f-455a-a603-0a14ecf62611",
+          "shorting_items|142660000|78564800|9fc05173-dcbe-4555-a0d1-f19997e9719c|d0d17cce-050e-4644-b87e-ca1f113d3029",
           ""
         ],
         [
-          "shorting_items|142660000|79225200|3439aae1-1cd8-4a31-8f31-a34b03f66a79|ffbc023d-ac1f-455a-a603-0a14ecf62611",
+          "shorting_items|142660000|79225200|3439aae1-1cd8-4a31-8f31-a34b03f66a79|9fc05173-dcbe-4555-a0d1-f19997e9719c",
           ""
         ],
         [
@@ -100,11 +100,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|142660000|78564800|ffbc023d-ac1f-455a-a603-0a14ecf62611|d0d17cce-050e-4644-b87e-ca1f113d3029",
+          "solder_mask_bridge|142660000|78564800|51ce384a-7a6b-44e5-b44b-d76b687d3a5d|3439aae1-1cd8-4a31-8f31-a34b03f66a79",
           ""
         ],
         [
-          "solder_mask_bridge|142660000|79225200|ffbc023d-ac1f-455a-a603-0a14ecf62611|3439aae1-1cd8-4a31-8f31-a34b03f66a79",
+          "solder_mask_bridge|142660000|78564800|9fc05173-dcbe-4555-a0d1-f19997e9719c|d0d17cce-050e-4644-b87e-ca1f113d3029",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142660000|79225200|9fc05173-dcbe-4555-a0d1-f19997e9719c|3439aae1-1cd8-4a31-8f31-a34b03f66a79",
           ""
         ]
       ],
@@ -1088,6 +1092,6 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "EEZ BB3+ STM32H7 CM5 module",
     "project_url": "https://www.envox.eu",
-    "project_version": "r1B3"
+    "project_version": "r1B4"
   }
 }

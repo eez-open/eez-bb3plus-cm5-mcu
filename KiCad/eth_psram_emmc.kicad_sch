@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-29")
+		(date "2026-03-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -1335,24 +1335,6 @@
 							)
 						)
 					)
-					(number "M7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -43.18 180)
-					(length 5.08)
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "P3"
 						(effects
 							(font
@@ -1362,7 +1344,7 @@
 					)
 				)
 				(pin power_in line
-					(at 30.48 -45.72 180)
+					(at 30.48 -43.18 180)
 					(length 5.08)
 					(name "VCCQ"
 						(effects
@@ -1490,6 +1472,24 @@
 				(pin power_in line
 					(at 30.48 -68.58 180)
 					(length 5.08)
+					(name "VCCQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -71.12 180)
+					(length 5.08)
 					(name "VSSQ"
 						(effects
 							(font
@@ -1506,7 +1506,7 @@
 					)
 				)
 				(pin power_in line
-					(at 30.48 -71.12 180)
+					(at 30.48 -73.66 180)
 					(length 5.08)
 					(name "VSSQ"
 						(effects
@@ -3648,6 +3648,18 @@
 		)
 		(uuid "6bfcd8a2-8b16-404e-9159-8a048935ce6e")
 	)
+	(text "Max consumption Read/Write @250MHz (X8/X16): 32/40 mA"
+		(exclude_from_sim no)
+		(at 228.6 107.315 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "72910f1e-e067-4b0e-874f-9c457b54034f")
+	)
 	(text "PC4"
 		(exclude_from_sim no)
 		(at 27.94 43.18 0)
@@ -3710,6 +3722,18 @@
 		)
 		(uuid "eebce34b-5657-454e-a6fd-a46904ee1e09")
 	)
+	(text "Max consumption HS200 mode\n+3V3 (Vcc): Read 40 mA, Write 40 mA\n+1V8 (Vccq): Read 140 mA, Write 80 mA"
+		(exclude_from_sim no)
+		(at 71.12 179.07 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "f0ae1524-d9df-4e37-9b93-9aafefc19d13")
+	)
 	(text "PC5"
 		(exclude_from_sim no)
 		(at 27.94 45.72 0)
@@ -3767,6 +3791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01d2a9c4-3783-44f5-8175-6daaa0c8ce20")
+	)
+	(junction
+		(at 99.06 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b24fad-3688-4c63-b92c-dfb01bd1703c")
 	)
 	(junction
 		(at 243.84 144.78)
@@ -4115,12 +4145,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c758dae1-1fda-43ef-81e3-847d25b6b761")
-	)
-	(junction
-		(at 99.06 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e4ff98-f5c1-44d2-be87-408f5e2073a4")
 	)
 	(junction
 		(at 134.62 71.12)
@@ -4879,16 +4903,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 144.78) (xy 99.06 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24be9978-b7b1-4e57-946f-2d7f3bafe68a")
-	)
-	(wire
-		(pts
 			(xy 182.88 134.62) (xy 198.12 134.62)
 		)
 		(stroke
@@ -5237,16 +5251,6 @@
 			(type default)
 		)
 		(uuid "3c1bcd72-20bf-48ef-97a7-89cd40c96f03")
-	)
-	(wire
-		(pts
-			(xy 99.06 142.24) (xy 99.06 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce7d402-c10c-4b75-a063-cd2fea864935")
 	)
 	(wire
 		(pts
@@ -5945,6 +5949,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 172.72) (xy 99.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e633a15-6df7-4791-b3a2-321a04a019b7")
+	)
+	(wire
+		(pts
 			(xy 96.52 106.68) (xy 99.06 106.68)
 		)
 		(stroke
@@ -6135,6 +6149,16 @@
 			(color 132 0 132 1)
 		)
 		(uuid "7d88ce03-2a6c-4f40-9abd-956afc367a06")
+	)
+	(wire
+		(pts
+			(xy 99.06 172.72) (xy 99.06 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1a0617-ca91-4fd9-a603-17ad819e160a")
 	)
 	(bus
 		(pts
@@ -11614,8 +11638,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 172.72 0)
-		(mirror y)
+		(at 99.06 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11623,7 +11646,7 @@
 		(dnp no)
 		(uuid "72bfa4ac-5a0e-4294-b4f4-05df95f6fdf1")
 		(property "Reference" "#SUPPLY024"
-			(at 99.06 172.72 0)
+			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.345 173.99 0)
+			(at 104.775 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 172.72 0)
+			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +11673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 172.72 0)
+			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +11682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 172.72 0)
+			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-29")
+		(date "2026-03-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4372,6 +4372,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 161.925 108.585)
+		(end 172.085 133.985)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64b0ca04-531d-42f4-a30a-9173d107ee7c)
+	)
+	(rectangle
+		(start 64.135 87.63)
+		(end 88.265 94.615)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64c9241d-72f5-4bcc-bb3c-8fcbff94d741)
+	)
 	(text "RGB-to-DVID converter"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
@@ -4386,6 +4412,17 @@
 		)
 		(uuid "16387c9f-573c-4b7d-8236-1140c1611747")
 	)
+	(text "Pulldown?"
+		(exclude_from_sim no)
+		(at 166.37 133.35 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4c5da733-9835-4799-82fc-280a0039d377")
+	)
 	(text "Video MUX 1:2"
 		(exclude_from_sim no)
 		(at 114.3 17.78 0)
@@ -4399,6 +4436,29 @@
 			(justify left bottom)
 		)
 		(uuid "81252e2d-d7f6-4c79-9775-751dbf8e4db3")
+	)
+	(text "Consumption (VCC Read), 200 MHz 8IO DTR (SIO floating): Typ. 55 mA, Max. 80 mA"
+		(exclude_from_sim no)
+		(at 187.96 86.36 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab95d450-d84e-4901-ab62-58083047b7a5")
+	)
+	(text "Connect?"
+		(exclude_from_sim no)
+		(at 103.505 93.98 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ad96e967-e5ef-4ac8-a29e-42aa366c1fec")
 	)
 	(text "NOR flash memory 256 Mbit (32 MB x 8, 200 MHz)"
 		(exclude_from_sim no)
@@ -4805,6 +4865,17 @@
 			(type default)
 		)
 		(uuid "0486289f-664d-445e-aa43-d54cd0ee65c9")
+	)
+	(polyline
+		(pts
+			(xy 111.76 124.46) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "04c98e18-b5f8-4fdf-8f63-0c06ae263bf2")
 	)
 	(wire
 		(pts
@@ -5687,6 +5758,17 @@
 		)
 		(uuid "73e1d987-6da8-428f-acac-b88aadc2dd13")
 	)
+	(polyline
+		(pts
+			(xy 107.315 94.615) (xy 111.76 98.425)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "7916f38a-e9f6-43fe-ba49-53d50f92a27f")
+	)
 	(wire
 		(pts
 			(xy 33.02 134.62) (xy 33.02 139.7)
@@ -6328,6 +6410,17 @@
 		)
 		(uuid "b5752693-26bf-484f-b72c-36dcb08f92c8")
 	)
+	(polyline
+		(pts
+			(xy 88.265 94.615) (xy 107.315 94.615)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "b57b021a-7f05-4648-927b-95be54bc251e")
+	)
 	(wire
 		(pts
 			(xy 187.96 119.38) (xy 190.5 119.38)
@@ -6888,6 +6981,17 @@
 			(type default)
 		)
 		(uuid "ed8a7b34-7948-41e4-8be1-68a119d8d1f3")
+	)
+	(polyline
+		(pts
+			(xy 111.76 98.425) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "edd88f21-e0ee-4e9f-856e-1bf8d1e9d099")
 	)
 	(wire
 		(pts
