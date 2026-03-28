@@ -898,6 +898,14 @@
       {
         "netclass": "USB",
         "pattern": "/CM5 socket/USB3_1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket/USB3_1_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket/USB3_1_D+"
       }
     ]
   },

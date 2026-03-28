@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-26")
+		(date "2026-03-28")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5313,6 +5313,10 @@
 		(uuid "086aef41-f16f-4e90-8148-a3977cf69c76")
 	)
 	(no_connect
+		(at 205.74 114.3)
+		(uuid "0c680280-f2f7-4d13-8c1d-2d06541ce214")
+	)
+	(no_connect
 		(at 50.8 45.72)
 		(uuid "0e2482b9-c4aa-4d56-a839-7f3dbda350cd")
 	)
@@ -5367,6 +5371,10 @@
 	(no_connect
 		(at 50.8 144.78)
 		(uuid "3710f281-577c-4ed6-b8f0-6260d9d1ff5e")
+	)
+	(no_connect
+		(at 205.74 111.76)
+		(uuid "3b5971e4-1269-42d4-82b0-c7bb318b0753")
 	)
 	(no_connect
 		(at 205.74 129.54)
@@ -5525,16 +5533,8 @@
 		(uuid "dc6a1f6b-367e-4cfa-9288-8cfa4949a6f2")
 	)
 	(no_connect
-		(at 205.74 106.68)
-		(uuid "e2b3aa20-b834-4bf0-9230-d1a7a33e6575")
-	)
-	(no_connect
 		(at 205.74 96.52)
 		(uuid "ecedaf29-125e-4389-a9d4-253e5bd9318a")
-	)
-	(no_connect
-		(at 205.74 104.14)
-		(uuid "f00b17c4-e383-4d85-8e66-d6db960630de")
 	)
 	(no_connect
 		(at 205.74 60.96)
@@ -5649,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 58.42) (xy 226.06 111.76)
+			(xy 226.06 58.42) (xy 226.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6159,16 +6159,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 111.76) (xy 226.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400ae653-17d3-4fe0-afa9-425c8b01e38e")
-	)
-	(wire
-		(pts
 			(xy 205.74 93.98) (xy 208.28 93.98)
 		)
 		(stroke
@@ -6396,6 +6386,16 @@
 			(type default)
 		)
 		(uuid "5535f5af-f6e4-49e2-bcd4-5bcd42068f6a")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ef6a4b-6e12-499a-a32b-f7b9911faa00")
 	)
 	(wire
 		(pts
@@ -6659,16 +6659,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 114.3) (xy 228.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7501d022-1e37-48b7-88ca-d255151b0ee9")
-	)
-	(wire
-		(pts
 			(xy 78.74 175.26) (xy 68.58 175.26)
 		)
 		(stroke
@@ -6676,6 +6666,16 @@
 			(type default)
 		)
 		(uuid "773847ed-699c-4eee-b562-2de474e3b0dd")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774ca378-9266-4abe-8057-d73e1adbc3ac")
 	)
 	(wire
 		(pts
@@ -7079,7 +7079,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 60.96) (xy 228.6 114.3)
+			(xy 228.6 60.96) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7868,7 +7868,7 @@
 		)
 		(uuid "0305e38d-3764-4ec5-bbad-6719f9bca8d1")
 	)
-	(label "USB3_1-"
+	(label "USB3_1_D-"
 		(at 228.6 58.42 0)
 		(effects
 			(font
@@ -7888,7 +7888,7 @@
 		)
 		(uuid "7e906d95-8afb-4706-b564-ff0cdd39a7e9")
 	)
-	(label "USB3_1+"
+	(label "USB3_1_D+"
 		(at 228.6 60.96 0)
 		(effects
 			(font
