@@ -1674,7 +1674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18413799-8e33-4aa6-803f-0b70d0a71022")
-		(property "Reference" "LOGO5"
+		(property "Reference" "LOGO1"
 			(at 60.96 195.7784 0)
 			(effects
 				(font
@@ -1731,7 +1731,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
-					(reference "LOGO5")
+					(reference "LOGO1")
 					(unit 1)
 				)
 			)
@@ -1747,7 +1747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "381c35b2-e874-4f9a-bfa3-09293702f483")
-		(property "Reference" "LOGO3"
+		(property "Reference" "LOGO4"
 			(at 38.1 184.3355 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
-					(reference "LOGO3")
+					(reference "LOGO4")
 					(unit 1)
 				)
 			)
@@ -2066,7 +2066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ec35af-78a2-46e6-a320-89cce0d6dc4f")
-		(property "Reference" "LOGO4"
+		(property "Reference" "LOGO5"
 			(at 45.72 185.964 0)
 			(effects
 				(font
@@ -2123,7 +2123,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
-					(reference "LOGO4")
+					(reference "LOGO5")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f2786e-46b0-40db-825a-0b32a7823959")
-		(property "Reference" "LOGO1"
+		(property "Reference" "LOGO2"
 			(at 22.86 185.6184 0)
 			(effects
 				(font
@@ -2305,7 +2305,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
-					(reference "LOGO1")
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "febbf333-b00e-4170-be9b-fb50e396f878")
-		(property "Reference" "LOGO2"
+		(property "Reference" "LOGO3"
 			(at 30.48 185.6122 0)
 			(effects
 				(font
@@ -2378,7 +2378,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
-					(reference "LOGO2")
+					(reference "LOGO3")
 					(unit 1)
 				)
 			)
