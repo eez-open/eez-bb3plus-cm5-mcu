@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-28")
+		(date "2026-04-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8789,7 +8789,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 53.34 0)
 			(effects
 				(font
@@ -8921,7 +8921,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15195"
 			(at 149.86 76.2 0)
 			(effects
 				(font
@@ -9034,7 +9034,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -9167,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 38.1 0)
 			(effects
 				(font
@@ -9299,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C132157"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -9592,7 +9592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15195"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -9819,7 +9819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 238.76 147.32 0)
 			(effects
 				(font
@@ -10230,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -10345,7 +10345,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15195"
 			(at 132.08 58.42 0)
 			(effects
 				(font
@@ -10913,7 +10913,7 @@
 			(uuid "0866e06e-18a2-40c8-9c99-5e0470623a3b")
 		)
 		(instances
-			(project ""
+			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "IC7")
 					(unit 1)
@@ -11119,7 +11119,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 45.72 0)
 			(effects
 				(font
@@ -11385,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -13116,7 +13116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -13315,7 +13315,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 109.22 152.4 0)
 			(effects
 				(font
@@ -13496,7 +13496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -14301,7 +14301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "LCSC" "C621424"
 			(at 104.14 53.34 0)
 			(effects
 				(font
@@ -14656,7 +14656,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76945"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -14942,7 +14942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76945"
 			(at 55.88 81.28 0)
 			(effects
 				(font
@@ -15161,7 +15161,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 35.56 0)
 			(effects
 				(font
@@ -15476,7 +15476,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60474"
 			(at 251.46 147.32 0)
 			(effects
 				(font
@@ -15591,7 +15591,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C840641"
 			(at 40.64 58.42 0)
 			(effects
 				(font

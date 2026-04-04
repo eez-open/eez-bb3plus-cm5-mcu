@@ -5,6 +5,10 @@
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. 
 
+Licenses | OSHWA UID
+--|--
+![osl](Images/osl.png) | [![OSHW-HR000121](Images/OSHW_UID_HR121.svg)](https://certification.oshwa.org/hr000121.html)
+
 ### Overview
 
 ![3D model](Images/CM5-STM32H7.jpg)
