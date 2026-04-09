@@ -13,7 +13,7 @@ Licenses | OSHWA UID
 
 ![3D model](Images/CM5-STM32H7.jpg)
 
-The MCU module uses a high performance STM32 MCU and is pin compatible with Raspberry Pi CM5. The MCU cannot generate an HDMI compatible signal, so a TI TFP410 is used to convert 24-bit RGB to HDMI compatible signal. Since the BB3+ offers dual display: a built-in 5" TFT touchscreen and an external monitor, a 1:2 high speed mux (TS3DV642) is used for destination selection.
+The MCU module uses a high performance STM32 MCU and is pin compatible with Raspberry Pi CM5. The MCU cannot generate an HDMI compatible signal, so a [TI TFP410](https://www.ti.com/product/TFP410) is used to convert 24-bit RGB to HDMI compatible signal. Since the BB3+ offers dual display: a built-in 5" TFT touchscreen and an external monitor, a 1:2 high speed mux ([TS3DV642](https://www.ti.com/product/TS3DV642)) is used for destination selection.
 
 ### Feature list
 
@@ -21,8 +21,8 @@ The MCU module uses a high performance STM32 MCU and is pin compatible with Rasp
 * [STM32H7R7L8H6H](https://www.st.com/en/microcontrollers-microprocessors/stm32h7r7l8.html) 32-bit High-Performance Arm Cortex-M7 MCU, 600 MHz, NeoChrom GPU
 * 32 MB PSRAM
 * 32 MB Flash memory
-* 4 GB eMMC (100-pin FBGA)
-* Two USB ports (1x FS with 1:2 Mux , 1x FS/HS)
+* Micro SD Card socket
+* Two USB ports (1x FS with [1:2 Mux](https://www.diodes.com/part/view/PI3USB102), 1x FS/HS)
 * 10/100 Mbps Ethernet
 * 24-bit color video output with 1:2 MUX (HDMI® compatible)
 * 6-layer PCB (without buried/blind vias)

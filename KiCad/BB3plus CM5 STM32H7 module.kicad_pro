@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -156,7 +156,15 @@
           ""
         ],
         [
-          "silk_over_copper|103846500|99512506|a6e9eb6f-1315-41c6-9f26-7c4e2ac15381|00000000-0000-0000-0000-000000000000",
+          "silk_edge_clearance|94100916|81595194|29bca5bc-91e5-46de-bcce-b560371b1b5f|4f4e3a6f-970d-4ffa-adcf-74154de9a863",
+          ""
+        ],
+        [
+          "silk_edge_clearance|94100916|95605194|29bca5bc-91e5-46de-bcce-b560371b1b5f|4364f749-c17d-4763-bda3-2b5b046ac27d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|94100916|95605194|29bca5bc-91e5-46de-bcce-b560371b1b5f|c48d28a9-92d2-4a1d-9f41-4e5cf402a0af",
           ""
         ],
         [
@@ -172,7 +180,7 @@
           ""
         ],
         [
-          "silk_overlap|142651683|84375000|730deabf-857f-4c65-b0e2-6b160f1510aa|a696e7a7-14f2-47b8-a6d6-8b5414a1a418",
+          "silk_overlap|138333683|84375000|730deabf-857f-4c65-b0e2-6b160f1510aa|a696e7a7-14f2-47b8-a6d6-8b5414a1a418",
           ""
         ],
         [
@@ -1054,6 +1062,14 @@
       {
         "netclass": "USB",
         "pattern": "/CM5 socket/USB3_1_D+"
+      },
+      {
+        "netclass": "eMMC",
+        "pattern": "SDMMC_CLK"
+      },
+      {
+        "netclass": "eMMC",
+        "pattern": "SDMMC_CMD"
       }
     ]
   },
@@ -1235,7 +1251,7 @@
     ],
     [
       "db533ab3-e8cc-4dba-934e-bd27ee1dfc29",
-      "Ethernet PHY, PSRAM, eMMC"
+      "Ethernet PHY, PSRAM, SDcard"
     ],
     [
       "6c545e17-ca5e-4b04-9dff-4169dbe59c9e",
@@ -1248,6 +1264,6 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "EEZ BB3+ STM32H7 CM5 module",
     "project_url": "https://www.envox.eu",
-    "project_version": "r1B4"
+    "project_version": "r1B5"
   }
 }

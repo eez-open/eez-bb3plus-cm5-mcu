@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.8-9.0.8~ubuntu24.04.1"
     },
-    "CreationDate": "2026-04-04T10:34:56+02:00"
+    "CreationDate": "2026-04-09T16:01:41+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "BB3plus CM5 STM32H7 module",
       "GUID": "42423370-6c75-4732-9043-4d352053544d",
-      "Revision": "r1B4"
+      "Revision": "r1B5"
     },
     "Size": {
       "X": 55.1,

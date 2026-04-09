@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-04")
+		(date "2026-04-09")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2535,7 +2535,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "db533ab3-e8cc-4dba-934e-bd27ee1dfc29")
-		(property "Sheetname" "Ethernet PHY, PSRAM, eMMC"
+		(property "Sheetname" "Ethernet PHY, PSRAM, SDcard"
 			(at 25.4 39.9284 0)
 			(effects
 				(font
