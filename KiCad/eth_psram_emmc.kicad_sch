@@ -7655,7 +7655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01d246cd-88c9-4584-92d7-844d6febc50b")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 149.86 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7774,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -8100,7 +8100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f15ad72-e3cd-45c8-bc3b-9772d31c0382")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 136.525 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,7 +8219,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8237,7 +8237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13e98ed5-c74e-404d-a9f7-04f8cc7590e7")
-		(property "Reference" "#SUPPLY051"
+		(property "Reference" "#SUPPLY023"
 			(at 96.52 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8298,7 +8298,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY051")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "152d97ae-6a47-4a86-9bce-2e8a39324ff2")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY026"
 			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8376,7 +8376,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
@@ -8529,7 +8529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ef9828e-0244-4c18-8cad-d7e99e7acf8d")
-		(property "Reference" "C46"
+		(property "Reference" "C49"
 			(at 144.78 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +8648,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C46")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -8802,7 +8802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ff7ccc-2312-442c-af6e-e9265df24cd1")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY030"
 			(at 185.42 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8863,7 +8863,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)
@@ -8880,7 +8880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "339ef3e6-ff2a-45f6-ae1e-5f49b1a5312b")
-		(property "Reference" "R23"
+		(property "Reference" "R14"
 			(at 86.36 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8999,7 +8999,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R23")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9154,7 +9154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b1da021-2f85-4486-b8e7-bd278e054277")
-		(property "Reference" "C43"
+		(property "Reference" "C53"
 			(at 185.42 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9273,7 +9273,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C43")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -9291,7 +9291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3be392dc-fecf-4f07-8033-1b9892351780")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 134.62 57.785 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9410,7 +9410,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -9569,7 +9569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4856ed32-08e2-44bd-8c94-f97c1a0f8357")
-		(property "Reference" "C47"
+		(property "Reference" "C51"
 			(at 154.94 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9688,7 +9688,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C47")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -9784,7 +9784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ecab631-af58-4c03-90c5-f5f81f3db588")
-		(property "Reference" "R20"
+		(property "Reference" "R9"
 			(at 71.12 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9903,7 +9903,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R20")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9921,7 +9921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "519c2e57-65c0-4eda-8158-5370fd3cb8ec")
-		(property "Reference" "R5"
+		(property "Reference" "R20"
 			(at 193.04 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10040,7 +10040,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10213,7 +10213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "581e723b-53db-41fb-a8fd-8a34cecff2b0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 260.35 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10274,7 +10274,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10291,7 +10291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66c3bcda-8496-4988-ace2-0d1bf073c30c")
-		(property "Reference" "R21"
+		(property "Reference" "R12"
 			(at 76.2 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10410,7 +10410,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R21")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10584,7 +10584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bb00648-2212-47c4-85dd-9b7ec1c87e52")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY028"
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10645,7 +10645,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -10662,7 +10662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d70ea89-422a-4c0f-a132-1029cc0a76f7")
-		(property "Reference" "X2"
+		(property "Reference" "X4"
 			(at 101.6 126.365 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10797,7 +10797,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "X2")
+					(reference "X4")
 					(unit 1)
 				)
 			)
@@ -11028,7 +11028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b1ad80f-bfb4-4926-8565-e72c8ff2701c")
-		(property "Reference" "C51"
+		(property "Reference" "C48"
 			(at 139.7 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +11147,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C51")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -11165,7 +11165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d630900-8759-4c23-9ba0-4271ef54190a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 181.61 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11226,7 +11226,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "855cd1cb-423c-414e-8b33-eb9d2d83ce21")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY032"
 			(at 256.54 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11305,7 +11305,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY032")
 					(unit 1)
 				)
 			)
@@ -11323,7 +11323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8769b16b-eae5-440e-b9af-150a827febde")
-		(property "Reference" "R15"
+		(property "Reference" "R23"
 			(at 193.04 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11442,7 +11442,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R15")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -11459,7 +11459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "886a39e2-7115-416e-aee5-61fb57f6fe12")
-		(property "Reference" "#SUPPLY030"
+		(property "Reference" "#SUPPLY025"
 			(at 127 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11520,7 +11520,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -11538,7 +11538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "928a022f-f2c7-4485-aa4d-edc0126a518b")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY022"
 			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11599,7 +11599,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)
@@ -11617,7 +11617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "929542ce-9c7a-4c86-91be-1aeaec70b510")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 173.99 70.485 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11736,7 +11736,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11753,7 +11753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "944facd3-75db-4a46-8fea-b976dabf33f3")
-		(property "Reference" "#+3V011"
+		(property "Reference" "#+3V013"
 			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11814,7 +11814,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#+3V011")
+					(reference "#+3V013")
 					(unit 1)
 				)
 			)
@@ -11831,7 +11831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95bfc7b6-628c-45ad-a34d-de3ee3e7fe86")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 192.405 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11950,7 +11950,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11967,7 +11967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96139219-1d75-4cf3-b7c1-0f95fa7e9970")
-		(property "Reference" "R22"
+		(property "Reference" "R13"
 			(at 81.28 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12086,7 +12086,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R22")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12240,7 +12240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3f0e1a2-43f4-4494-b93c-4d98b2e5cdab")
-		(property "Reference" "#SUPPLY026"
+		(property "Reference" "#SUPPLY029"
 			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12301,7 +12301,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY026")
+					(reference "#SUPPLY029")
 					(unit 1)
 				)
 			)
@@ -12318,7 +12318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a794e8de-d024-4b94-be69-012f08bf14fc")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY027"
 			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12379,7 +12379,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -12396,7 +12396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0ad593c-d4bb-422b-84cf-94c9a0fc9e01")
-		(property "Reference" "R24"
+		(property "Reference" "R15"
 			(at 91.44 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12515,7 +12515,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R24")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12687,7 +12687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b905f292-e101-4114-bc5a-0d001f671054")
-		(property "Reference" "C53"
+		(property "Reference" "C45"
 			(at 104.14 120.015 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12795,7 +12795,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C53")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12948,7 +12948,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c0315af7-7ada-47b2-a8ad-e4d429285b34")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 53.34 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13067,7 +13067,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13084,7 +13084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c57a6127-0ae7-471b-91ff-f087e5c2d7af")
-		(property "Reference" "R11"
+		(property "Reference" "R21"
 			(at 196.85 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13203,7 +13203,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R11")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13220,7 +13220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5e9b0af-2b5c-47d9-9bda-afbbf954e998")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 187.96 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13339,7 +13339,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13356,7 +13356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8eb56fa-e169-4c4b-ae6e-a3649c17f34a")
-		(property "Reference" "C48"
+		(property "Reference" "C47"
 			(at 134.62 74.295 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13475,7 +13475,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C48")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -13493,7 +13493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb6dab76-b005-4ee0-9759-3709e77cc15e")
-		(property "Reference" "R12"
+		(property "Reference" "R22"
 			(at 193.04 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13612,7 +13612,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R12")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13960,7 +13960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd9a9fea-6961-418b-8553-0caf304f2605")
-		(property "Reference" "#+3V014"
+		(property "Reference" "#+3V012"
 			(at 96.52 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14021,7 +14021,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#+3V014")
+					(reference "#+3V012")
 					(unit 1)
 				)
 			)
@@ -14038,7 +14038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce302085-4908-4ca8-97ae-f642ba412157")
-		(property "Reference" "#SUPPLY028"
+		(property "Reference" "#SUPPLY024"
 			(at 109.22 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14099,7 +14099,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY028")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -14117,7 +14117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d17a50f8-0df8-4e0f-ba3e-0b6b535bea9f")
-		(property "Reference" "C45"
+		(property "Reference" "C43"
 			(at 55.88 69.215 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14225,7 +14225,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C45")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -14242,7 +14242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2e647ff-df8b-4015-b0cd-23429e9dacd1")
-		(property "Reference" "R17"
+		(property "Reference" "R24"
 			(at 200.025 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14361,7 +14361,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R17")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14378,7 +14378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb693a1-ec7a-43ce-8395-44a1ec1f8ebb")
-		(property "Reference" "#+3V012"
+		(property "Reference" "#+3V014"
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14439,7 +14439,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#+3V012")
+					(reference "#+3V014")
 					(unit 1)
 				)
 			)
@@ -14456,7 +14456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e08136ea-add0-4e43-92ff-0a9d90fdaf3f")
-		(property "Reference" "#+3V013"
+		(property "Reference" "#+3V011"
 			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14517,7 +14517,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#+3V013")
+					(reference "#+3V011")
 					(unit 1)
 				)
 			)
@@ -14535,7 +14535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e309abce-0fae-4000-9f9a-d444900dafc3")
-		(property "Reference" "C52"
+		(property "Reference" "C44"
 			(at 55.88 79.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14643,7 +14643,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C52")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -14660,7 +14660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5f6d145-4b1e-449d-bd39-593c085a1f5b")
-		(property "Reference" "C50"
+		(property "Reference" "C52"
 			(at 167.64 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14779,7 +14779,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "C50")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -15438,7 +15438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2cbdc2-aa5f-42f8-8ffe-ae94af6961a2")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 73.025 28.575 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15557,7 +15557,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15574,7 +15574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe4577f8-e47a-474d-880d-577b4476c471")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 75.565 28.575 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +15693,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
