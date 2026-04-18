@@ -12251,7 +12251,7 @@
 			)
 		)
 	)
-	(global_label "USB_FS_SEL"
+	(global_label "USB_HS_SEL"
 		(shape input)
 		(at 269.24 63.5 0)
 		(fields_autoplaced yes)
@@ -12264,7 +12264,7 @@
 		)
 		(uuid "68e4bf9a-4abc-4f95-bbd6-4baa04df43b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.8726 63.5 0)
+			(at 279.0419 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

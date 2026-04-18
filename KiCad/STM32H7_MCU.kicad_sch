@@ -3254,7 +3254,7 @@
 				(pin power_in line
 					(at 0 -78.74 0)
 					(length 5.08)
-					(name "VDD50US_B"
+					(name "VDD50USB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3380,7 +3380,7 @@
 				(pin power_in line
 					(at 0 -81.28 0)
 					(length 5.08)
-					(name "VDD33US_B"
+					(name "VDD33USB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13018,7 +13018,7 @@
 			)
 		)
 	)
-	(global_label "USB_FS_SEL"
+	(global_label "USB_HS_SEL"
 		(shape output)
 		(at 76.2 55.88 0)
 		(fields_autoplaced yes)
@@ -13031,7 +13031,7 @@
 		)
 		(uuid "34bc7cd5-0184-45be-85b4-631f53f20c4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.8326 55.88 0)
+			(at 86.0019 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
