@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-04-09T15:59:07+0200 ###
-### Printed by KiCad version 9.0.8-9.0.8~ubuntu24.04.1
+### Footprint positions - created on 2026-04-18T10:53:44 ###
+### Printed by KiCad version 10.0.1-10.0.1~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                   Package                    PosX       PosY       Rot  Side
@@ -57,13 +57,6 @@ C66       100n                  C_0402_1005Metric       42.0200    18.3900  180.
 C74       10u                   C_0603_1608Metric       38.9900    22.0600    0.0000  bottom
 FB1       FBMJ1608HM180NTR      BEAD0603                27.6000    10.2100  -90.0000  bottom
 FB5       60R@100MHz            BEAD0603                39.0700    20.4200  180.0000  bottom
-JP1       ~                     JP3_shorted_(0603)      45.6227    29.8200  180.0000  bottom
-JP2       ~                     JP3_shorted_(0603)      41.9800    30.7400    0.0000  bottom
-JP3       ~                     JP3_shorted_(0603)      45.6227    28.4800  180.0000  bottom
-JP4       ~                     JP3_shorted_(0603)      41.9800    32.0100    0.0000  bottom
-JP5       ~                     JP3_shorted_(0603)      45.6227    27.1600  180.0000  bottom
-JP6       ~                     JP3_shorted_(0603)      45.5800    20.7300  180.0000  bottom
-JP7       ~                     JP3_shorted_(0603)      45.6200    33.6552  180.0000  bottom
 L1        LQM2MPN2R2NG0         0806                    23.2886    10.2370    0.0000  bottom
 R16       220R                  R_0402_1005Metric       15.0400     2.4100    0.0000  bottom
 R17       220R                  R_0402_1005Metric       15.0400     1.1600    0.0000  bottom

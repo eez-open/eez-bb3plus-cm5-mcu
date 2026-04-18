@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-09")
+		(date "2026-04-18")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7745,6 +7745,7 @@
 		)
 		(property "LCSC" "C15195"
 			(at 149.86 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8189,6 +8190,7 @@
 		)
 		(property "LCSC" "C132157"
 			(at 134.62 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8617,6 +8619,7 @@
 		)
 		(property "LCSC" "C15195"
 			(at 144.78 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
