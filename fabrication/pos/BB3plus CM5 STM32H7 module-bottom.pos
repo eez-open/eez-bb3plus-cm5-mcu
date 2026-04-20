@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-04-20T12:01:50 ###
+### Footprint positions - created on 2026-04-20T14:33:03 ###
 ### Printed by KiCad version 10.0.1-10.0.1~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -19,7 +19,7 @@ C19       2u2                   C_0402_1005Metric       26.0700    20.3270  180.
 C20       100n                  C_0402_1005Metric       24.5300    16.4000   90.0000  bottom
 C21       100n                  C_0402_1005Metric       27.8900    17.9570    0.0000  bottom
 C22       2u2                   C_0402_1005Metric       23.6900    18.9600  -90.0000  bottom
-C23       1u                    C_0402_1005Metric       21.4000    18.9500   90.0000  bottom
+C23       1u                    C_0402_1005Metric       21.2900    18.9600   90.0000  bottom
 C24       220p                  C_0402_1005Metric       23.7200    11.7070  180.0000  bottom
 C25       100n                  C_0402_1005Metric       25.4500    16.4000   90.0000  bottom
 C26       100n                  C_0402_1005Metric       26.5200    18.9570  -90.0000  bottom
@@ -39,8 +39,8 @@ C39       100n                  C_0402_1005Metric       29.7100    19.0700    0.
 C40       100n                  C_0402_1005Metric       25.6000    18.9570  -90.0000  bottom
 C41       4u7                   C_0603_1608Metric       28.6000    24.8200   90.0000  bottom
 C42       4u7                   C_0603_1608Metric       26.7000    24.8200   90.0000  bottom
-C43       10p                   C_0402_1005Metric       10.1957     4.9100    0.0000  bottom
-C44       10p                   C_0402_1005Metric       13.1557     4.9100  180.0000  bottom
+C43       10p                   C_0402_1005Metric       10.4800     4.8600    0.0000  bottom
+C44       10p                   C_0402_1005Metric       12.9600     4.8600  180.0000  bottom
 C45       10u                   C_0603_1608Metric        3.7509    24.6318  180.0000  bottom
 C53       100n                  C_0402_1005Metric        7.2600     9.5500    0.0000  bottom
 C54       100n                  C_0402_1005Metric       38.7500    16.3850   90.0000  bottom

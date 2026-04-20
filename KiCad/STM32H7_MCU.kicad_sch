@@ -7379,10 +7379,6 @@
 		(uuid "d1864048-4be9-4ba4-a174-a7834d083ca7")
 	)
 	(no_connect
-		(at 71.12 43.18)
-		(uuid "e6459809-e821-4385-ab99-f589dd950e47")
-	)
-	(no_connect
 		(at 71.12 58.42)
 		(uuid "eeb5d009-4d9b-447d-a8d7-8e7f6c81a130")
 	)
@@ -11143,6 +11139,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba8d9b1-2bd1-4d8c-909c-8066049c8d18")
+	)
+	(wire
+		(pts
 			(xy 210.82 99.06) (xy 210.82 106.68)
 		)
 		(stroke
@@ -14514,6 +14520,31 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ETH_CLK"
+		(shape output)
+		(at 76.2 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 204 102 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cbe89e80-f83e-47db-bcce-e520bfeb07d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.4195 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
