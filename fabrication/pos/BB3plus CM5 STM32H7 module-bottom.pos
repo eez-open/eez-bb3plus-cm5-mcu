@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-04-18T15:49:38 ###
+### Footprint positions - created on 2026-04-20T10:03:03 ###
 ### Printed by KiCad version 10.0.1-10.0.1~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -58,15 +58,15 @@ C76       4u7                   C_0603_1608Metric       22.6552    27.5600  -90.
 FB1       FBMJ1608HM180NTR      BEAD0603                27.6000    10.2100  -90.0000  bottom
 FB5       60R@100MHz            BEAD0603                39.0700    20.4200  180.0000  bottom
 L1        LQM2MPN2R2NG0         0806                    23.2886    10.2370    0.0000  bottom
-R9        47K                   R_0402_1005Metric        3.2000    21.2348  180.0000  bottom
-R12       47K                   R_0402_1005Metric        3.2000    22.3348  180.0000  bottom
-R13       47K                   R_0402_1005Metric        3.2000    27.8348  180.0000  bottom
-R14       47K                   R_0402_1005Metric        3.2000    28.9348  180.0000  bottom
-R15       47K                   R_0402_1005Metric        3.2000    23.4348  180.0000  bottom
-R18       10K                   R_0402_1005Metric       40.8500    13.2000  180.0000  bottom
-R19       220R                  R_0402_1005Metric       15.0400     2.4100    0.0000  bottom
-R24       220R                  R_0402_1005Metric       15.0400     1.1600    0.0000  bottom
-R32       10K                   R_0402_1005Metric       37.8600    29.8000  180.0000  bottom
+R10       47K                   R_0402_1005Metric        3.2000    21.2348  180.0000  bottom
+R13       47K                   R_0402_1005Metric        3.2000    22.3348  180.0000  bottom
+R14       47K                   R_0402_1005Metric        3.2000    27.8348  180.0000  bottom
+R15       47K                   R_0402_1005Metric        3.2000    28.9348  180.0000  bottom
+R16       47K                   R_0402_1005Metric        3.2000    23.4348  180.0000  bottom
+R19       10K                   R_0402_1005Metric       40.8500    13.2000  180.0000  bottom
+R20       220R                  R_0402_1005Metric       15.0400     2.4100    0.0000  bottom
+R25       220R                  R_0402_1005Metric       15.0400     1.1600    0.0000  bottom
+R33       10K                   R_0402_1005Metric       37.8600    29.8000  180.0000  bottom
 Y1        VXM7-9032-25M0000000  XTAL_403C11A24M00000    32.1500    12.0500    0.0000  bottom
 Y2        VXM7-9032-25M0000000  XTAL_403C11A24M00000    11.6757     2.5200  -90.0000  bottom
 ## End
