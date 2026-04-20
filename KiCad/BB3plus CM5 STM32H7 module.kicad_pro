@@ -98,6 +98,18 @@
           ""
         ],
         [
+          "shorting_items|104524800|100650000|768f16da-7da7-4789-b4f5-2d6065743eee|7ab8c369-2eee-499b-82a2-2b973dc360b1",
+          ""
+        ],
+        [
+          "shorting_items|105185200|100440000|71c56b3d-1d03-4347-94f4-00de7018e3aa|7ab8c369-2eee-499b-82a2-2b973dc360b1",
+          ""
+        ],
+        [
+          "shorting_items|105185200|100650000|7ab8c369-2eee-499b-82a2-2b973dc360b1|ffbd56fd-086f-40bc-a622-9cad2b7080a1",
+          ""
+        ],
+        [
           "shorting_items|110460000|76624800|0aa89f3e-81dd-405b-b55f-2a43059722a5|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90",
           ""
         ],
@@ -182,11 +194,39 @@
           ""
         ],
         [
-          "silk_overlap|138333683|83105000|730deabf-857f-4c65-b0e2-6b160f1510aa|e041e3de-ba10-4cd0-9f95-728ca898a1b6",
+          "silk_overlap|138333683|84375000|730deabf-857f-4c65-b0e2-6b160f1510aa|a696e7a7-14f2-47b8-a6d6-8b5414a1a418",
           ""
         ],
         [
-          "silk_overlap|142651683|84375000|730deabf-857f-4c65-b0e2-6b160f1510aa|a696e7a7-14f2-47b8-a6d6-8b5414a1a418",
+          "silk_overlap|142651683|83105000|730deabf-857f-4c65-b0e2-6b160f1510aa|e041e3de-ba10-4cd0-9f95-728ca898a1b6",
+          ""
+        ],
+        [
+          "solder_mask_bridge|104524800|100400000|4da2fd5d-ddd3-4a89-b193-9f9ff60829b2|71c56b3d-1d03-4347-94f4-00de7018e3aa",
+          ""
+        ],
+        [
+          "solder_mask_bridge|104524800|100400000|4da2fd5d-ddd3-4a89-b193-9f9ff60829b2|ffbd56fd-086f-40bc-a622-9cad2b7080a1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|104524800|100650000|4da2fd5d-ddd3-4a89-b193-9f9ff60829b2|71c56b3d-1d03-4347-94f4-00de7018e3aa",
+          ""
+        ],
+        [
+          "solder_mask_bridge|104524800|100650000|4da2fd5d-ddd3-4a89-b193-9f9ff60829b2|7ab8c369-2eee-499b-82a2-2b973dc360b1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|104524800|100650000|4da2fd5d-ddd3-4a89-b193-9f9ff60829b2|ffbd56fd-086f-40bc-a622-9cad2b7080a1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|104524800|100650000|7ab8c369-2eee-499b-82a2-2b973dc360b1|768f16da-7da7-4789-b4f5-2d6065743eee",
+          ""
+        ],
+        [
+          "solder_mask_bridge|105185200|100650000|7ab8c369-2eee-499b-82a2-2b973dc360b1|ffbd56fd-086f-40bc-a622-9cad2b7080a1",
           ""
         ],
         [
@@ -1370,7 +1410,7 @@
         "uuid": "1a4f0aea-3a69-423f-8790-3103cd0321c4"
       }
     ],
-    "used_designators": "X1-4,RN1-2,R1-37,Module1,JP1-9,#+3V1-27,#+5V1-4,#FLG1-7,Y1-2,#PWR1-22,#SUPPLY1-51,FB1-5,L1,C1-76,FM1-4,NT1-2,IC1-11,LOGO1-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

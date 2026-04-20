@@ -13244,7 +13244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d29d12a-70bf-45fc-9df7-0234c0cc9e5c")
-		(property "Reference" "JP2"
+		(property "Reference" "JP3"
 			(at 33.655 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,7 +13366,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -14221,7 +14221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29e94d21-927a-4143-9353-8b6bbc49bfa8")
-		(property "Reference" "JP5"
+		(property "Reference" "JP6"
 			(at 44.45 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14343,7 +14343,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP5")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -16722,7 +16722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65e27a1f-d140-497c-ae63-458fc170d947")
-		(property "Reference" "JP8"
+		(property "Reference" "JP9"
 			(at 105.41 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16844,7 +16844,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP8")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -17797,7 +17797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87b0bf3b-635c-4027-8c59-84420820f442")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 44.45 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17919,7 +17919,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP6")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -20082,7 +20082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3d20f22-e2be-46be-9b53-88824a2a549c")
-		(property "Reference" "JP4"
+		(property "Reference" "JP5"
 			(at 33.655 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20204,7 +20204,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP4")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -20435,7 +20435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6a1abd7-bc56-4d1a-ad53-381eb7be7d6e")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 33.655 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20557,7 +20557,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -22134,7 +22134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff22efdf-b458-4f60-a492-ff4031ae3b18")
-		(property "Reference" "JP7"
+		(property "Reference" "JP8"
 			(at 44.45 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22256,7 +22256,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/6c545e17-ca5e-4b04-9dff-4169dbe59c9e"
-					(reference "JP7")
+					(reference "JP8")
 					(unit 1)
 				)
 			)

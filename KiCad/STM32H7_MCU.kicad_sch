@@ -7331,6 +7331,10 @@
 		(uuid "4503e713-25e9-468d-9f51-e8618fec00cc")
 	)
 	(no_connect
+		(at 40.64 91.44)
+		(uuid "4f364c02-0f54-4e12-9c72-e9b3bbade07c")
+	)
+	(no_connect
 		(at 71.12 38.1)
 		(uuid "503b490b-547a-4676-b396-a8640cc7f7a7")
 	)
@@ -7375,10 +7379,6 @@
 		(uuid "d1864048-4be9-4ba4-a174-a7834d083ca7")
 	)
 	(no_connect
-		(at 40.64 91.44)
-		(uuid "d9854bac-da1c-4039-af38-6488071714b7")
-	)
-	(no_connect
 		(at 71.12 43.18)
 		(uuid "e6459809-e821-4385-ab99-f589dd950e47")
 	)
@@ -7389,10 +7389,6 @@
 	(no_connect
 		(at 119.38 58.42)
 		(uuid "f528ea81-162d-48bc-a7f7-9ae7f48e79ca")
-	)
-	(no_connect
-		(at 40.64 152.4)
-		(uuid "fb75bb11-9675-4c31-a412-b9aad32a8c90")
 	)
 	(bus_entry
 		(at 106.68 88.9)
@@ -10943,6 +10939,16 @@
 			(color 132 0 132 1)
 		)
 		(uuid "c168130e-7904-41c0-b644-df23a327facc")
+	)
+	(wire
+		(pts
+			(xy 35.56 152.4) (xy 40.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23a2419-3c1a-4a19-a736-2c955fd9a78f")
 	)
 	(wire
 		(pts
@@ -14677,6 +14683,31 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "~{ETH_RESET}"
+		(shape output)
+		(at 35.56 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 204 102 0 1)
+			)
+			(justify right)
+		)
+		(uuid "dcd7f0c3-71d8-4516-a501-0a81fa018a2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.8166 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
