@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-20")
+		(date "2026-04-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9850,7 +9850,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3884ec18-9230-4a9c-a7e9-7a763455d343")
 		(property "Reference" "JP3"
 			(at 36.83 86.995 0)
@@ -9864,8 +9864,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 38.1 88.9 0)
-			(hide yes)
+			(at 38.735 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9874,7 +9873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:JP2 open (0603)"
+		(property "Footprint" "PCM_EEZ_SMD:JP2 open (0402)"
 			(at 38.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9907,6 +9906,50 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 38.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 38.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 38.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 38.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "331bc677-47cd-490a-9ba5-9800fe06f480")
 		)
@@ -9918,6 +9961,31 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "JP3")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+						(dnp no)
+						(in_bom yes)
+						(field
+							(name "DigiKey")
+							(value "13-RC0402FR-1349R9LCT-ND")
+						)
+						(field
+							(name "LCSC")
+							(value "C4007649")
+						)
+						(field
+							(name "Mouser")
+							(value "603-RC0402FR-1349R9L")
+						)
+						(field
+							(name "TME")
+							(value "RC0402FR-0749R9L")
+						)
+						(field
+							(name "Value")
+							(value "49R9")
+						)
+					)
 				)
 			)
 		)
@@ -10334,6 +10402,11 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "Y2")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+						(dnp yes)
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -13801,10 +13874,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c0315af7-7ada-47b2-a8ad-e4d429285b34")
 		(property "Reference" "R6"
 			(at 53.34 52.07 90)
@@ -13927,6 +14000,11 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R6")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+						(dnp yes)
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -15085,6 +15163,11 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C43")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+						(dnp yes)
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -15642,6 +15725,11 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C44")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+						(dnp yes)
+						(in_bom no)
+					)
 				)
 			)
 		)

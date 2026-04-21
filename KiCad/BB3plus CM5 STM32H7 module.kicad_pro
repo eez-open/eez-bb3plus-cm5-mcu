@@ -1451,7 +1451,11 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "name": "Ethernet PHY no xtal"
+      }
+    ]
   },
   "sheets": [
     [
