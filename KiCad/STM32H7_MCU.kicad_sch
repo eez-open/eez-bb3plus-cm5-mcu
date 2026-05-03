@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-21")
+		(date "2026-05-01")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6534,6 +6534,34 @@
 		)
 		(uuid "f31c2a63-467c-4ccc-88e3-d45bb1aeb2e6")
 	)
+	(text_box "Module ID: 000"
+		(exclude_from_sim no)
+		(at 88.9 48.26 0)
+		(size 12.7 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "988184ab-bf19-486b-9076-bdbab1ff6d6c")
+	)
+	(junction
+		(at 91.44 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "034b2e4d-adad-491e-9bd7-73560dc24470")
+	)
 	(junction
 		(at 193.04 86.36)
 		(diameter 0)
@@ -7285,6 +7313,12 @@
 		(uuid "fac90023-e3d0-426c-af04-cfbe9f4dcd5e")
 	)
 	(junction
+		(at 91.44 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb16fc86-a6a9-4894-8c0d-a2d56d63f348")
+	)
+	(junction
 		(at 248.92 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7323,10 +7357,6 @@
 		(uuid "2937a4c2-6bfc-4ee6-a14f-0b4131f097ae")
 	)
 	(no_connect
-		(at 71.12 53.34)
-		(uuid "44b64639-a8c4-41ad-beae-86e83dec8d9e")
-	)
-	(no_connect
 		(at 40.64 129.54)
 		(uuid "4503e713-25e9-468d-9f51-e8618fec00cc")
 	)
@@ -7351,10 +7381,6 @@
 		(uuid "720ad50b-d1f0-489a-93e7-b43b1df93cb5")
 	)
 	(no_connect
-		(at 71.12 50.8)
-		(uuid "a6d3607a-b73d-46d9-ae40-8abd7baa6e36")
-	)
-	(no_connect
 		(at 71.12 83.82)
 		(uuid "aa922613-27df-4187-a36b-0d239d248dea")
 	)
@@ -7377,10 +7403,6 @@
 	(no_connect
 		(at 71.12 93.98)
 		(uuid "d1864048-4be9-4ba4-a174-a7834d083ca7")
-	)
-	(no_connect
-		(at 71.12 58.42)
-		(uuid "eeb5d009-4d9b-447d-a8d7-8e7f6c81a130")
 	)
 	(no_connect
 		(at 119.38 58.42)
@@ -8094,6 +8116,16 @@
 			(type default)
 		)
 		(uuid "1d05d7e2-b48c-40da-a600-1570947c35f5")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d475010-28ab-44c5-95b0-9f1f181bb0c9")
 	)
 	(polyline
 		(pts
@@ -9692,6 +9724,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 58.42) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bd74df-4645-460d-a34e-e5d8269a3f87")
+	)
+	(wire
+		(pts
 			(xy 248.92 43.18) (xy 248.92 45.72)
 		)
 		(stroke
@@ -11269,6 +11311,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 53.34) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26caeda-ca42-4b42-b020-813482036930")
+	)
+	(wire
+		(pts
 			(xy 246.38 63.5) (xy 248.92 63.5)
 		)
 		(stroke
@@ -11356,6 +11408,16 @@
 			(type default)
 		)
 		(uuid "d57461e5-0454-4b6a-8b7a-c2665e611fb5")
+	)
+	(wire
+		(pts
+			(xy 71.12 53.34) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59c44b8-17a2-4075-a9f2-e2cf1d5e9a15")
 	)
 	(wire
 		(pts
@@ -11568,6 +11630,16 @@
 			(type default)
 		)
 		(uuid "e1a5d978-86d6-41b2-9dea-a7e781456c6b")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1de87d0-bcb7-4313-995e-b87033103dc4")
 	)
 	(wire
 		(pts
@@ -25290,6 +25362,85 @@
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_symbols:GND")
+		(at 91.44 60.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e380e220-0660-439a-bdf6-51f02a8d8913")
+		(property "Reference" "#SUPPLY053"
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.345 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88f02505-c4d2-4484-8060-9b286302dd1c")
+		)
+		(instances
+			(project "BB3plus CM5 STM32H7 module"
+				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25"
+					(reference "#SUPPLY053")
 					(unit 1)
 				)
 			)

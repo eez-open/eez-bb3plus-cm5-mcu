@@ -1,0 +1,1 @@
+The latest CubeMX .ioc: [https://github.com/eez-open/eez-bb3plus-cm5-firmware/tree/main/ioc](https://github.com/eez-open/eez-bb3plus-cm5-firmware/tree/main/ioc)
