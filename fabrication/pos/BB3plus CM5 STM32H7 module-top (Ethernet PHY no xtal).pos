@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-04-21T13:33:23 ###
-### Printed by KiCad version 10.0.1-10.0.1~ubuntu24.04.1
+### Footprint positions - created on 2026-07-10T08:44:00 ###
+### Printed by KiCad version 10.0.4-10.0.4~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                   Package                            PosX       PosY       Rot  Side
@@ -26,7 +26,8 @@ C65       10u                   C_0603_1608Metric               39.5900    29.23
 C67       10n                   C_0402_1005Metric               27.2400    28.7200  180.0000  top
 C68       100n                  C_0402_1005Metric               27.2400    29.6400  180.0000  top
 C69       100n                  C_0402_1005Metric               41.5400    38.5600  -90.0000  top
-C73       100n                  C_0402_1005Metric               45.2571    38.5600  -90.0000  top
+C72       100n                  C_0402_1005Metric               45.2571    38.5600  -90.0000  top
+D1        BAT54XV2T5G           SOD-523F_0P9X1P3_ONS            16.0800    30.2991   90.0000  top
 FB2       BLM18AG102SH1D        BEAD0603                         5.9655    11.4100  -90.0000  top
 FB3       60R@100MHz            BEAD0603                        42.3200    32.1500   90.0000  top
 FB4       60R@100MHz            BEAD0603                        39.7400    32.1400   90.0000  top
@@ -60,10 +61,9 @@ R24       49R9                  R_0402_1005Metric                7.2800     6.73
 R29       10K                   R_0402_1005Metric               46.0847    31.6400  -90.0000  top
 R30       10K                   R_0402_1005Metric               49.6700    31.3400   90.0000  top
 R31       510R                  R_0402_1005Metric               39.4400    26.3700  180.0000  top
-R34       10K                   R_0402_1005Metric               20.6152    27.5600  180.0000  top
-R35       1K5                   R_0402_1005Metric               45.8300    37.1800    0.0000  top
-R36       1K5                   R_0402_1005Metric               45.8300    36.2400    0.0000  top
-R37       10K                   R_0402_1005Metric               16.4600    31.0900  -90.0000  top
+R35       10K                   R_0402_1005Metric               20.6152    27.5600  180.0000  top
+R36       1K5                   R_0402_1005Metric               45.8300    37.1800    0.0000  top
+R37       1K5                   R_0402_1005Metric               45.8300    36.2400    0.0000  top
 RN1       CAY16A-330J4AS        CAY16                           11.4100    11.9300  180.0000  top
 RN2       CAY16A-330J4AS        CAY16                           16.1000    11.9300  180.0000  top
 X1        DF40C-100DP-0.4V(51)  Raspberry-Pi-CM5_(SoM)_Left     51.5000     3.5200   90.0000  top

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-05-01")
+		(date "2026-07-10")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2288,6 +2288,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "LOGO5")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2364,6 +2367,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "LOGO6")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2484,6 +2490,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "LOGO3")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2571,6 +2580,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "FM4")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2658,6 +2670,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "FM3")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2734,6 +2749,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "Module1")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2821,6 +2839,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "FM1")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2908,6 +2929,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "LOGO4")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -2995,6 +3019,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "FM2")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -3126,6 +3153,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "LOGO1")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -3213,6 +3243,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4"
 					(reference "LOGO2")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-05-01")
+		(date "2026-07-10")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8200,6 +8200,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 3)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -8336,6 +8339,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C50")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -8490,6 +8496,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 2)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -8645,6 +8654,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 4)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -8781,6 +8793,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R17")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -8797,7 +8812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13e98ed5-c74e-404d-a9f7-04f8cc7590e7")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY025"
 			(at 96.52 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +8873,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -8875,7 +8890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "152d97ae-6a47-4a86-9bce-2e8a39324ff2")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY028"
 			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8936,7 +8951,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -9074,6 +9089,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R8")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -9210,6 +9228,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C49")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -9346,6 +9367,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C57")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -9362,7 +9386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ff7ccc-2312-442c-af6e-e9265df24cd1")
-		(property "Reference" "#SUPPLY031"
+		(property "Reference" "#SUPPLY032"
 			(at 185.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9423,7 +9447,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY031")
+					(reference "#SUPPLY032")
 					(unit 1)
 				)
 			)
@@ -9561,6 +9585,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R15")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -9700,6 +9727,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "JP2")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -9837,6 +9867,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C54")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -10123,6 +10156,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C53")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -10260,6 +10296,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C46")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -10543,6 +10582,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C51")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -10559,7 +10601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "491688c4-2c51-4504-8ecf-b6a750944ced")
-		(property "Reference" "#SUPPLY021"
+		(property "Reference" "#SUPPLY022"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10620,7 +10662,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY021")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)
@@ -10637,7 +10679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e3aaf8e-b1e4-43c2-b9b7-3db96b6bf652")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY024"
 			(at 83.82 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10698,7 +10740,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -10836,6 +10878,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R10")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -10973,6 +11018,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R21")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -11129,6 +11177,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -11343,6 +11394,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R13")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -11499,6 +11553,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -11515,7 +11572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bb00648-2212-47c4-85dd-9b7ec1c87e52")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY030"
 			(at 142.24 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11576,7 +11633,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)
@@ -11730,6 +11787,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "X4")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -11745,7 +11805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eb10782-5e23-4958-8197-84825dad9172")
-		(property "Reference" "#SUPPLY032"
+		(property "Reference" "#SUPPLY033"
 			(at 233.68 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11806,7 +11866,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY032")
+					(reference "#SUPPLY033")
 					(unit 1)
 				)
 			)
@@ -11944,6 +12004,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R9")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -12080,6 +12143,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C48")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -12175,7 +12241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "855cd1cb-423c-414e-8b33-eb9d2d83ce21")
-		(property "Reference" "#SUPPLY033"
+		(property "Reference" "#SUPPLY034"
 			(at 256.54 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12236,7 +12302,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY033")
+					(reference "#SUPPLY034")
 					(unit 1)
 				)
 			)
@@ -12375,6 +12441,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R24")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -12390,7 +12459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "886a39e2-7115-416e-aee5-61fb57f6fe12")
-		(property "Reference" "#SUPPLY026"
+		(property "Reference" "#SUPPLY027"
 			(at 127 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12451,7 +12520,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY026")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -12469,7 +12538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "928a022f-f2c7-4485-aa4d-edc0126a518b")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY023"
 			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12530,7 +12599,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -12669,6 +12738,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R18")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -12883,6 +12955,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R20")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -13019,6 +13094,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R14")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -13155,6 +13233,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R7")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -13171,7 +13252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3f0e1a2-43f4-4494-b93c-4d98b2e5cdab")
-		(property "Reference" "#SUPPLY030"
+		(property "Reference" "#SUPPLY031"
 			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13232,7 +13313,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY031")
 					(unit 1)
 				)
 			)
@@ -13249,7 +13330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a794e8de-d024-4b94-be69-012f08bf14fc")
-		(property "Reference" "#SUPPLY028"
+		(property "Reference" "#SUPPLY029"
 			(at 139.7 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13310,7 +13391,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY028")
+					(reference "#SUPPLY029")
 					(unit 1)
 				)
 			)
@@ -13448,6 +13529,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R16")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -13603,6 +13687,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 2)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -13728,6 +13815,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C45")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -13864,6 +13954,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "FB2")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14141,6 +14234,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R22")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14277,6 +14373,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R19")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14413,6 +14512,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C47")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14550,6 +14652,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R23")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14745,6 +14850,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "IC6")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14881,6 +14989,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C55")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -14974,7 +15085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce302085-4908-4ca8-97ae-f642ba412157")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY026"
 			(at 109.22 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15035,7 +15146,7 @@
 		(instances
 			(project "BB3plus CM5 STM32H7 module"
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
@@ -15304,6 +15415,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R25")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -15599,6 +15713,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "JP4")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -15866,6 +15983,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C52")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -16020,6 +16140,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 3)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -16214,6 +16337,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "IC7")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -16232,7 +16358,6 @@
 		(uuid "f29ff8bc-3ed9-4b5d-a082-814c1f46e8ac")
 		(property "Reference" "C56"
 			(at 251.46 147.32 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16244,7 +16369,6 @@
 		)
 		(property "Value" "100n"
 			(at 251.46 151.13 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16353,6 +16477,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C56")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -16508,6 +16635,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 4)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -16644,6 +16774,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R11")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
@@ -16780,6 +16913,9 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R12")
 					(unit 1)
+					(variant
+						(name "Ethernet PHY no xtal")
+					)
 				)
 			)
 		)
