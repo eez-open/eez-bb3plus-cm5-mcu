@@ -1416,7 +1416,7 @@
         "uuid": "1a4f0aea-3a69-423f-8790-3103cd0321c4"
       }
     ],
-    "used_designators": "#FLG1-7,#+5V1-4,#+3V1-27,#PWR1-23,Y1-2,IC1-11,NT1-2,RN1-2,FM1-4,L1,FB1-5,X1-4,LOGO1-6,C1-76,#SUPPLY1-53,D1,D3,R1-38,Module1,JP1-11",
+    "used_designators": "L1,FB1-5,FM1-4,Y1-2,#PWR1-23,#+3V1-27,C1-76,#FLG1-7,LOGO1-6,X1-4,D1,D3,#SUPPLY1-53,IC1-11,NT1-2,RN1-2,Module1,JP1-11,R1-38,#+5V1-4",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
