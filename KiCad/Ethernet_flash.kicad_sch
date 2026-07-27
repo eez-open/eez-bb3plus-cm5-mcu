@@ -2517,24 +2517,6 @@
 						)
 					)
 				)
-				(pin bidirectional clock
-					(at 0 -53.34 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 0 -55.88 0)
 					(length 5.08)
@@ -3147,24 +3129,6 @@
 						)
 					)
 				)
-				(pin bidirectional clock
-					(at 33.02 -58.42 180)
-					(length 5.08)
-					(name "SCL_B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 33.02 -48.26 180)
 					(length 5.08)
@@ -3176,24 +3140,6 @@
 						)
 					)
 					(number "41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional clock
-					(at 33.02 -45.72 180)
-					(length 5.08)
-					(name "SCL_A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "42"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3240,6 +3186,24 @@
 						(type background)
 					)
 				)
+				(pin bidirectional line
+					(at 0 -53.34 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin no_connect line
 					(at 5.08 -63.5 0)
 					(length 0)
@@ -3271,6 +3235,42 @@
 						)
 					)
 					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -58.42 180)
+					(length 5.08)
+					(name "SCL_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -45.72 180)
+					(length 5.08)
+					(name "SCL_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
 						(effects
 							(font
 								(size 1.016 1.016)
