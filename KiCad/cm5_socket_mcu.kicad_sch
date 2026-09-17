@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-10")
+		(date "2026-09-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6525,7 +6525,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 50.8 121.92)
+			(xy 43.18 121.92) (xy 50.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7031,7 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 139.7) (xy 50.8 139.7)
+			(xy 43.18 139.7) (xy 50.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8553,16 +8553,6 @@
 		)
 		(uuid "628a0e6a-9176-4627-a6b8-591cf15e2cc5")
 	)
-	(wire
-		(pts
-			(xy 43.18 68.58) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63752d11-1b49-410a-865f-e944d591cb31")
-	)
 	(polyline
 		(pts
 			(xy 146.05 125.73) (xy 146.685 125.73)
@@ -8925,6 +8915,16 @@
 			(color 132 0 132 1)
 		)
 		(uuid "71fb3841-c0a3-466b-845d-68ed36edfcd1")
+	)
+	(wire
+		(pts
+			(xy 109.22 147.32) (xy 101.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744b735b-5705-4479-bf28-32a919d29a11")
 	)
 	(polyline
 		(pts
@@ -9328,6 +9328,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 149.86) (xy 50.8 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f0b5e9-025b-4cca-88e6-2d32e6e0c8cf")
+	)
+	(wire
+		(pts
 			(xy 147.32 139.7) (xy 149.86 139.7)
 		)
 		(stroke
@@ -9461,16 +9471,6 @@
 			(type default)
 		)
 		(uuid "8f45e75d-b7a8-4009-ad24-26cee345d03e")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 50.8 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8e93fd-cff7-4c62-a29d-cb03e5b2ab35")
 	)
 	(wire
 		(pts
@@ -10180,16 +10180,6 @@
 		)
 		(uuid "b08eee06-d0ba-4840-a8fa-13ad6b708bbb")
 	)
-	(wire
-		(pts
-			(xy 101.6 147.32) (xy 109.22 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0da4f40-ac53-4a75-8f7e-d6f2e68e5185")
-	)
 	(polyline
 		(pts
 			(xy 146.05 87.63) (xy 146.685 87.63)
@@ -10374,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 50.8 124.46)
+			(xy 43.18 124.46) (xy 50.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10816,6 +10806,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 68.58) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc0a15a-a693-415a-a537-3c17b7383a8f")
+	)
+	(wire
+		(pts
 			(xy 142.24 88.9) (xy 149.86 88.9)
 		)
 		(stroke
@@ -10982,16 +10982,6 @@
 			(color 132 0 132 1)
 		)
 		(uuid "d3aabacc-deaa-4900-894d-4778547b5592")
-	)
-	(wire
-		(pts
-			(xy 101.6 68.58) (xy 109.22 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3cf1cee-9f81-4ade-b77f-dec2b4ee717c")
 	)
 	(wire
 		(pts
@@ -11413,7 +11403,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 127) (xy 50.8 127)
+			(xy 43.18 127) (xy 50.8 127)
 		)
 		(stroke
 			(width 0)
@@ -11702,6 +11692,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 68.58) (xy 101.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7407adf-b313-429c-abbb-31119b121c83")
+	)
+	(wire
+		(pts
 			(xy 60.96 177.8) (xy 60.96 180.34)
 		)
 		(stroke
@@ -11974,7 +11974,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 40.64 124.46 180)
+		(at 43.18 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11984,7 +11984,7 @@
 		)
 		(uuid "051e6aa6-8659-4640-9e01-1f8f37ca98b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.8862 124.46 0)
+			(at 38.4262 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12072,7 +12072,7 @@
 	)
 	(global_label "DIN2"
 		(shape output)
-		(at 109.22 68.58 0)
+		(at 109.22 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12082,7 +12082,7 @@
 		)
 		(uuid "14c270e3-a58e-49d2-a518-d602a20e31ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9419 68.58 0)
+			(at 113.9419 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12243,7 +12243,7 @@
 	)
 	(global_label "~{RESET_OUT}"
 		(shape output)
-		(at 40.64 139.7 180)
+		(at 43.18 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12253,7 +12253,7 @@
 		)
 		(uuid "227c6b08-ed84-4f29-bc7e-094d29952941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7696 139.7 0)
+			(at 34.3096 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12317,7 +12317,7 @@
 	)
 	(global_label "GPIO_VREF"
 		(shape output)
-		(at 40.64 121.92 180)
+		(at 43.18 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12327,7 +12327,7 @@
 		)
 		(uuid "28e6f2c8-da5a-485f-9dbf-6c3bbf78b1c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9812 121.92 0)
+			(at 34.5212 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12587,7 +12587,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 40.64 127 180)
+		(at 43.18 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12597,7 +12597,7 @@
 		)
 		(uuid "4f20b837-8b59-42e6-ad4b-ad262cef2d03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.8439 127 0)
+			(at 38.3839 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13075,17 +13075,17 @@
 	)
 	(global_label "RS485_RX{slash}DIN3"
 		(shape output)
-		(at 40.64 149.86 180)
+		(at 109.22 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "939d0550-92f4-4ded-9c90-fa4afe91f16e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.298 149.86 0)
+			(at 121.562 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13093,7 +13093,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -13293,17 +13293,17 @@
 	)
 	(global_label "RS485_TX{slash}DOUT3"
 		(shape input)
-		(at 109.22 147.32 0)
+		(at 43.18 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b02f9beb-1723-4814-880c-bccfba15fe7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5356 147.32 0)
+			(at 29.8644 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13311,7 +13311,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -13515,7 +13515,7 @@
 	)
 	(global_label "RTC_CM5"
 		(shape output)
-		(at 43.18 68.58 180)
+		(at 43.18 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13525,7 +13525,7 @@
 		)
 		(uuid "e08cb51f-7af2-4a7e-af06-046950eabf3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.6641 68.58 0)
+			(at 35.6641 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13894,9 +13894,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "R1")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14187,9 +14184,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "IC1")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14471,9 +14465,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "C4")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14767,9 +14758,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "C5")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -15061,9 +15049,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -15294,9 +15279,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "IC3")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -15508,9 +15490,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "IC2")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16167,9 +16146,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "X1")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16295,9 +16271,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16593,9 +16566,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "JP1")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -17345,9 +17315,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -17771,9 +17738,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99"
 					(reference "X2")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)

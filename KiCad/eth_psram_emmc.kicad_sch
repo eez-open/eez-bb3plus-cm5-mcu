@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-10")
+		(date "2026-09-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8200,9 +8200,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 3)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -8339,9 +8336,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C50")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -8496,9 +8490,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 2)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -8654,9 +8645,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 4)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -8793,9 +8781,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R17")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -9089,9 +9074,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R8")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -9228,9 +9210,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C49")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -9367,9 +9346,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C57")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -9585,9 +9561,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R15")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -9727,9 +9700,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "JP2")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -9867,9 +9837,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C54")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -10156,9 +10123,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C53")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -10296,9 +10260,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C46")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -10582,9 +10543,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C51")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -10878,9 +10836,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R10")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -11018,9 +10973,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R21")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -11177,9 +11129,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -11394,9 +11343,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R13")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -11553,9 +11499,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -11787,9 +11730,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "X4")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -12004,9 +11944,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R9")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -12143,9 +12080,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C48")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -12441,9 +12375,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R24")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -12738,9 +12669,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R18")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -12955,9 +12883,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R20")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -13094,9 +13019,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R14")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -13233,9 +13155,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R7")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -13529,9 +13448,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R16")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -13687,9 +13603,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 2)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -13815,9 +13728,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C45")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -13954,9 +13864,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "FB2")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14234,9 +14141,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R22")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14373,9 +14277,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R19")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14512,9 +14413,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C47")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14652,9 +14550,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R23")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14850,9 +14745,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "IC6")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -14989,9 +14881,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C55")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -15415,9 +15304,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R25")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -15713,9 +15599,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "JP4")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -15983,9 +15866,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C52")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16140,9 +16020,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN1")
 					(unit 3)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16337,9 +16214,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "IC7")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16477,9 +16351,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "C56")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16635,9 +16506,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "RN2")
 					(unit 4)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16774,9 +16642,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R11")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -16913,9 +16778,6 @@
 				(path "/1a4f0aea-3a69-423f-8790-3103cd0321c4/db533ab3-e8cc-4dba-934e-bd27ee1dfc29"
 					(reference "R12")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)

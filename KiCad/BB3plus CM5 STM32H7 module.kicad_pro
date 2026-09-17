@@ -574,15 +574,15 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|711200|508000|bded001e-e3ca-4abf-a9fe-dbf3fcc4f848|a84867ad-865f-47fc-a7c5-283dea9e6c45|/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25|/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25|/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99",
+        "pin_to_pin|711200|508000|bded001e-e3ca-4abf-a9fe-dbf3fcc4f848|a84867ad-865f-47fc-a7c5-283dea9e6c45|||",
         ""
       ],
       [
-        "pin_to_pin|711200|533400|2e47101c-b841-4b79-b676-2b7a45b8eeba|a84867ad-865f-47fc-a7c5-283dea9e6c45|/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25|/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25|/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99",
+        "pin_to_pin|711200|533400|2e47101c-b841-4b79-b676-2b7a45b8eeba|a84867ad-865f-47fc-a7c5-283dea9e6c45|||",
         ""
       ],
       [
-        "pin_to_pin|711200|584200|bd6010a1-9e63-480e-99d5-a2d66157a191|a84867ad-865f-47fc-a7c5-283dea9e6c45|/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25|/1a4f0aea-3a69-423f-8790-3103cd0321c4/d7166dbe-caf3-45a8-82fe-1ff0a9696e25|/1a4f0aea-3a69-423f-8790-3103cd0321c4/c2910023-6066-4877-a406-045757318a99",
+        "pin_to_pin|711200|584200|bd6010a1-9e63-480e-99d5-a2d66157a191|a84867ad-865f-47fc-a7c5-283dea9e6c45|||",
         ""
       ]
     ],
@@ -1429,7 +1429,7 @@
         "uuid": "1a4f0aea-3a69-423f-8790-3103cd0321c4"
       }
     ],
-    "used_designators": "NT1-2,IC1-11,RN1-2,X1-4,LOGO1-6,#FLG1-7,Module1,JP1-11,R1-38,#SUPPLY1-53,D1,D3,C1-76,#PWR1-23,Y1-2,L1,FB1-5,FM1-4,#+3V1-27,#+5V1-4",
+    "used_designators": "#PWR1-23,Y1-2,FM1-4,#+3V1-27,#+5V1-4,L1,FB1-5,#FLG1-7,LOGO1-6,X1-4,IC1-11,NT1-2,RN1-2,C1-76,#SUPPLY1-53,D1,D3,R1-38,Module1,JP1-11",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
