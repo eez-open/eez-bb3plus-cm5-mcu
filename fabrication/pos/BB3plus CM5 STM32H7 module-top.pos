@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-07-10T08:45:16 ###
-### Printed by KiCad version 10.0.4-10.0.4~ubuntu24.04.1
+### Footprint positions - created on 2026-09-18T18:40:42 ###
+### Printed by KiCad version 10.0.6-10.0.6~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                   Package                            PosX       PosY       Rot  Side
@@ -42,7 +42,6 @@ IC8       TFP410PAP             PAP64_5X5-L                     46.9900    24.05
 IC9       TS3DV642A0RUAR        RUA42_7P55X2P05                 33.3100    30.4400   90.0000  top
 IC10      LSF0204GU12           XQFN12_SOT1174-1_NEX-L          43.4000    37.0700    0.0000  top
 IC11      MX25UM25645GXDI00-T   APS256XXN-OBR-BG_APY-L          21.2500    31.3221   90.0000  top
-R1        10K                   R_0402_1005Metric               18.0600    37.4700    0.0000  top
 R2        1K5                   R_0402_1005Metric               17.0900    14.3800  180.0000  top
 R3        1K5                   R_0402_1005Metric               17.0900    15.3300  180.0000  top
 R4        10K                   R_0402_1005Metric               17.1000    16.4600  180.0000  top

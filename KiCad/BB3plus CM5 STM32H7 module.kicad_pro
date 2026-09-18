@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 4.3,
-          "width": 4.3
+          "drill": 1.5,
+          "height": 1.85,
+          "width": 1.85
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -86,11 +86,11 @@
           ""
         ],
         [
-          "clearance|110460000|76624800|0aa89f3e-81dd-405b-b55f-2a43059722a5|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90",
+          "clearance|108650000|80334800|0aa89f3e-81dd-405b-b55f-2a43059722a5|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90",
           ""
         ],
         [
-          "clearance|110460000|77285200|86249e98-bf9c-4fcc-a53e-b5377689604c|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90",
+          "clearance|108650000|80995200|86249e98-bf9c-4fcc-a53e-b5377689604c|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90",
           ""
         ],
         [
@@ -107,10 +107,6 @@
         ],
         [
           "clearance|140047883|84810000|09ddd6aa-75dd-42aa-a327-ee09e92f966c|2a5fc5aa-3cad-4dce-8694-8b3468932290",
-          ""
-        ],
-        [
-          "courtyards_overlap|100628000|75067921|bea8dc75-d8d1-45d9-8ca2-f9891d5787e2|c7269226-2f31-41ab-9228-9e1355fd9fb7",
           ""
         ],
         [
@@ -214,10 +210,6 @@
           ""
         ],
         [
-          "silk_overlap|111044696|78897885|1dee86fb-1865-47dd-b255-494ab3220fd7|ad6efe5b-5260-4e0a-9810-c97417b093fe",
-          ""
-        ],
-        [
           "silk_overlap|137469000|80845000|0a83f263-722d-4649-abab-468bb887a355|0b50ed64-9614-475b-b768-69cc44754103",
           ""
         ],
@@ -250,15 +242,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|110460000|76624800|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90|0aa89f3e-81dd-405b-b55f-2a43059722a5",
+          "solder_mask_bridge|108650000|80334800|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90|0aa89f3e-81dd-405b-b55f-2a43059722a5",
           ""
         ],
         [
-          "solder_mask_bridge|110460000|77285200|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90|86249e98-bf9c-4fcc-a53e-b5377689604c",
+          "solder_mask_bridge|108650000|80995200|c5fd5a16-2b6b-42f2-b388-6b60a0b40d90|86249e98-bf9c-4fcc-a53e-b5377689604c",
           ""
         ],
         [
-          "solder_mask_bridge|110460000|77285200|c929e405-641d-4dae-a10f-2a757a75bf16|0aa89f3e-81dd-405b-b55f-2a43059722a5",
+          "solder_mask_bridge|108650000|80995200|c929e405-641d-4dae-a10f-2a757a75bf16|0aa89f3e-81dd-405b-b55f-2a43059722a5",
           ""
         ],
         [
@@ -1429,7 +1421,7 @@
         "uuid": "1a4f0aea-3a69-423f-8790-3103cd0321c4"
       }
     ],
-    "used_designators": "#PWR1-23,Y1-2,FM1-4,#+3V1-27,#+5V1-4,L1,FB1-5,#FLG1-7,LOGO1-6,X1-4,IC1-11,NT1-2,RN1-2,C1-76,#SUPPLY1-53,D1,D3,R1-38,Module1,JP1-11",
+    "used_designators": "RN1-2,NT1-2,IC1-11,X1-4,LOGO1-6,#FLG1-7,R1-38,JP1-11,Module1,C1-76,D1,D3,#SUPPLY1-53,#PWR1-23,Y1-2,L1,FB1-5,FM1-4,#+3V1-27,#+5V1-4",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
